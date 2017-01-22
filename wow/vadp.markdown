@@ -46,11 +46,9 @@ categories: wow
 * [AutoShoutOut](#autoshoutout)
 * [Available Only](#availableonly)
 
-###[B](#b_start)
+### [B](#b_start)
 
-##<a name="a_start"></a>A
-
-###<a name="autosave"></a>!AutoSave
+### <a name="autosave"></a>!AutoSave
 ![!AutoSave tooltip](./img/autosavett.png)
 
 ![!AutoSave ui](./img/autosave1.png)
@@ -65,7 +63,7 @@ Helps to save progress, by periodically sending ".save" command. This would only
 
 [Download](./addons/!Autosave.rar)
 
-###<a name="abehfs"></a>ABHelper Estimated Final Score Redux 
+### <a name="abehfs"></a>ABHelper Estimated Final Score Redux 
 ![ABHEFS tooltip](./img/abhefstt.png)
 
 ![ABHEFS usage](./img/abhefs1.png)
