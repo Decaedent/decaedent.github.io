@@ -1,4 +1,4 @@
----
+# ---
 layout: post
 title: Vanilla Addon Documentation Project
 date:   2017-01-21 19:14:42 +0100
@@ -6,9 +6,51 @@ categories: wow
 ---
 
 
-## A
+### [A](#a_start)
+* [!AutoSave](#autosave)
+* [ABHelper Estimated Final Score Redux](#abehfs)
+* [ACE](#ace)
+* [Ace 2](#ace2)
+* [AceAccept](#aceaccept)
+* [AceGUI](#acegui)
+* [AceLoot](#aceloot)
+* [AcePlayerMenu](#apm)
+* [Ace Timer](#acetimer)
+* [Advanced Weapon Stats](#adws)
+* [Advanced Trade Skill Window](#atsw)
+* [AF Tooltip](#aft)
+* [ag_UnitFrames](#aguf)
+* [Aggro Alert](#aggroaler)
+* [AH MailCollect](#ahmc)
+* [AH Favorites](#ahf)
+* [Align](#align)
+* [Alkitron Honor Tab](#aht)
+* [All In One Inventory](#aioi)
+* [Answering Machine](#am)
+* [Archaelogist](#arch)
+* [Arc HUD 2](#archud2)
+* [AsmoMOD](#asmomod)
+* [Atlas](#atlas)
+* [Atlas Loot](#atlasloot)
+* [Atlas Quest](#atlasqiest)
+* [Auctioneer](#auctioneer)
+* [Auction Filter Plus](#afp)
+* [AutoBar](#autobar)
+* [AutoBuff](#autobuff)
+* [AutoDecline](#autodecline)
+* [AutoDing](#autoding)
+* [Autograts](#autograts)
+* [AutoInvite](#autoinvite)
+* [AutoProfit](#autoprofit)
+* [AutoRepair](#autorepair)
+* [AutoShoutOut](#autoshoutout)
+* [Available Only](#availableonly)
 
-### !AutoSave
+###[B](#b_start)
+
+##<a name="a_start"></a>A
+
+###<a name="autosave"></a>!AutoSave
 ![!AutoSave tooltip](./img/autosavett.png)
 
 ![!AutoSave ui](./img/autosave1.png)
@@ -23,7 +65,7 @@ Helps to save progress, by periodically sending ".save" command. This would only
 
 [Download](./addons/!Autosave.rar)
 
-### ABHelper Estimated Final Score Reducx
+###<a name="abehfs"></a>ABHelper Estimated Final Score Redux 
 ![ABHEFS tooltip](./img/abhefstt.png)
 
 ![ABHEFS usage](./img/abhefs1.png)
@@ -40,7 +82,7 @@ Hello, this is a snippet.
 
 [comment]: # (TODO: In game image)
 
-### ACE
+### <a name="ace"></a> ACE
 ![ACE tooltip](./img/acett.png)
 
 ![](./img/ace1.png)
@@ -55,7 +97,7 @@ A third-party library, that is used to make addon development easier. Other addo
 
 [Download](./addons/{2}.rar)
 
-### Ace 2
+### <a name="ace2"></a> Ace 2
 ![Ace 2 tooltip](./img/ace2tt.png)
 
 Summary:
@@ -64,7 +106,7 @@ An updated version of Ace 2. This cannot be used as a replacement for addons tha
 
 [Download](./addons/ace2.rar)
 
-### AceAccept
+### <a name="aceaccept"></a> AceAccept
 ![AceAccept tooltip](./img/aceaccepttt.png)
 
 Summary:
@@ -72,7 +114,7 @@ Automatically accepts summons and ressurections
 
 [Download](./addons/aceaccept.rar)
 
-### AceGUI
+### <a name="acegui"></a> AceGUI
 ![AceGUI tooltip](./img/aceguitt.png)
 
 Summary:
@@ -80,7 +122,7 @@ AceGUI is a toolkit for creating and working with GUI components.
 
 [Download](./addons/acegui.rar)
 
-### AceLoot
+### <a name="aceloot"></a> AceLoot
 ![AceLoot tooltip](./img/aceloottt.png)
 
 ![](./img/aceloot1.png)
@@ -93,7 +135,7 @@ Automatically position the loot window under the mouse cursor.
 
 [comment]: # (TODO: autoloot similar addons)
 
-### AcePlayerMenu
+### <a name="apm"></a> AcePlayerMenu
 ![AcePlayerMenu tooltip](./img/aceplayermenutt.png)
 
 ![](./img/aceplayermenu1.png)
@@ -112,7 +154,7 @@ The developer said that this has been discontinued, because SetItemRes got broke
 
 [Download](./addons/aceplayermenu.rar)
 
-### Ace Timer
+### <a name="acetimer"></a> Ace Timer
 ![Ace Timer tooltip](./img/acetimertt.png)
 
 ![](./img/acetimer1.png)
@@ -136,7 +178,7 @@ Shows buff duration and cooldown timers. Allows to cast the relevant skill, when
 
 [Download](./addons/acetimer.rar)
 
-### Advanced Weapon Stats
+### <a name="adws"></a> Advanced Weapon Stats
 ![Advanced Weapon Stats tooltip](./img/adwstt.png)
 
 ![](./img/adws1.png)
@@ -159,7 +201,7 @@ Advanced Weapon Stats also shows some additional info like:
 
 [Download](./addons/adws.rar)
 
-### Advanced Trade Skill Window
+### <a name="atsw"></a> Advanced Trade Skill Window
 ![Advanced Trade Skill Window tooltip](./img/atswtt.png)
 
 Commands:
@@ -173,7 +215,7 @@ An improved tradeskill window. Can count the resource cost for recipes, queue pr
 
 [Download](./addons/advancedtradeskillwindow.rar)
 
-### AF Tooltip
+### <a name="aft"></a> AF Tooltip
 ![AF Tooltip tooltip](./img/af_tooltiptt.png)
 
 ![](./img/af_tooltip1.png)
@@ -189,7 +231,7 @@ Allows to move the Blizzard default tooltip to other locations, allows to show m
 
 [Download](./addons/af_tooltip.rar)
 
-### ag_UnitFrames
+### <a name="aguf"></a> ag_UnitFrames
 ![ag_UnitFrames tooltip](./img/ag_unitframestt.png)
 
 ![](./img/ag_unitframes1.png)
@@ -213,7 +255,7 @@ A unit frame addon. Changes the default Blizzard frames (Player, Target, Pet, pa
 
 [Download](./addons/ag_unitframes.rar)
 
-### Aggro Alert
+### <a name="aggroaler"></a> Aggro Alert
 ![Aggro Alert tooltip](./img/aggroalerttt.png)
 
 ![](./img/agroalert1.png)
@@ -231,7 +273,7 @@ Creates a movable frame that will display the target's target (if any), and allo
 
 [Download](./addons/agroalert.rar)
 
-### AH MailCollect
+### <a name="ahmc"></a> AH MailCollect
 ![AH MailCollect tooltip](./img/ahmctt.png)55555
 
 Summary:
@@ -245,7 +287,7 @@ You can also automatically retrieve all items in emails from winning or expired 
 
 [Download](./addons/AH_MailCollect.rar)
 
-### AH Favorites
+### <a name="ahf"></a> AH Favorites
 ![AH Favorites tooltip](./img/ahfavoritestt.png)
 
 
@@ -259,7 +301,7 @@ Auction House Favorites adds a pulldown menu called "Favorites" to the Name fiel
 
 [Download](./addons/ahfavorites.rar)
 
-### Align
+### <a name="align"></a> Align
 ![Align tooltip](./img/aligntt.png)
 
 ![](./img/align1.png)
@@ -273,7 +315,7 @@ Draws a grid on the screen. This helps to align UI elements.
 
 [Download](./addons/align.rar)
 
-### Alkitron Honor Tab
+### <a name="aht"></a> Alkitron Honor Tab
 ![Alkitron Honor Tab tooltip](./img/ahttt.png)
 
 ![](./img/aht1.png)
@@ -283,7 +325,7 @@ An improved honor tab. Shows more informations, such as kills today, yesterday, 
 
 [Download](./addons/alkitron_honortab.rar)
 
-### All In One Inventory
+### <a name="aioi"></a> All In One Inventory
 ![All In One Inventory tooltip](./img/allinoneinventorytt.png)
 
 ![](./img/allinoneinventory1.png)
@@ -303,7 +345,7 @@ Combines all bags into a single window
 
 [Download](./addons/allinoneinventory.rar)
 
-### Answering Machine
+### <a name="am"></a> Answering Machine
 ![Answering Machine tooltip](./img/answeringmachinett.png)
 
 ![](./img/answeringmachine1.png)
@@ -317,7 +359,7 @@ Stores messages for you while you are AFK. Also, can auto reply to messages.
 
 [Download](./addons/answeringmachine.rar)
 
-### Archaelogist
+### <a name="arch"></a> Archaelogist
 ![Archaelogist tooltip](./img/archaelogisttt.png)
 
 Commands:
@@ -334,7 +376,7 @@ Is supposed to be an extension to some other addon. Seems to use a deprecated fu
 
 [Download](./addons/archaelogist.rar)
 
-### Arc HUD 2
+### <a name="archud2"></a> Arc HUD 2
 ![Arc HUD 2 tooltip](./img/archud2tt.png)
 
 ![](./img/archud22.png)
@@ -358,7 +400,7 @@ It has support for FlightMap destination timers and also have a casting bar with
 
 [Download](./addons/archud2.rar)
 
-### AsmoMOD
+### <a name="asmomod"></a> AsmoMOD
 ![AsmoMOD tooltip](./img/asmomodtt.png)
 
 ![](./img/asmomod1.png)
@@ -372,7 +414,7 @@ Automatically use WotF / trinket on stuns, accepts ressurects, summon, release i
 
 [Download](./addons/asmomod.rar)
 
-### Atlas
+### <a name="atlas"></a> Atlas
 ![Atlas tooltip](./img/Atlastt.png)
 
 ![](./img/Atlas1.png)
@@ -390,7 +432,7 @@ Atlas is a user interface addon for World of Warcraft that provides a number of 
 
 [Download](./addons/Atlas.rar)
 
-### Atlas Loot
+### <a name="atlasloot"></a> Atlas Loot
 ![Atlas Loot tooltip](./img/atlasloottt.png)
 
 ![](./img/atlasloot1.png)
@@ -404,7 +446,7 @@ Extension to Atlas addon. Adds ability see drop tables from various dungeons, as
 
 [Download](./addons/atlasloot.rar)
 
-### Atlas Quest
+### <a name="atlasquest"></a> Atlas Quest
 ![Atlas Quest tooltip](./img/atlasquesttt.png)
 
 ![](./img/atlasquest1.png)
@@ -420,7 +462,7 @@ Extension to Atlas addon. Adds ability to see dungeon related quest, quest gives
 
 [Download](./addons/atlasquest.rar)
 
-### Auctioneer
+### <a name="auctioneer"></a> Auctioneer
 ![Auctioneer tooltip](./img/auctioneertt.png)
 
 ![](./img/auctioneer1.png)
@@ -441,7 +483,7 @@ A huge addon that enhances the use of auction house.
 
 [Download](./addons/auctioneer.rar)
 
-### Auction Filter Plus
+### <a name="afp"></a> Auction Filter Plus
 ![Auction Filter Plus tooltip](./img/auctionfilterplustt.png)
 
 ![](./img/auctionfilterplus1.png)
@@ -470,7 +512,7 @@ Summary:
 
 [Download](./addons/auctionfilterplus.rar)
 
-### AutoBar
+### <a name="autobar"></a> AutoBar
 ![AutoBar tooltip](./img/autobartt.png)
 
 ![](./img/autobar1.png)
@@ -485,7 +527,7 @@ Configurable set of 12 buttons that seeks out configured items in your pack for 
 
 [Download](./addons/autobar.rar)
 
-### AutoBuff
+### <a name="autobuff"></a> AutoBuff
 ![AutoBuff tooltip](./img/autobufftt.png)
 
 ![](./img/autobuff1.png)
@@ -507,7 +549,7 @@ Can be configured to cast buffs automatically, when moving the scroll wheel, swi
 
 [Download](./addons/autobuff.rar)
 
-### AutoDecline
+### <a name="autodecline"></a> AutoDecline
 ![AutoDecline tooltip](./img/autodeclinett.png)
 
 ![](./img/autodecline1.png)
@@ -524,7 +566,7 @@ This modification to the WoW interface allows a player to automatically decline 
 
 [Download](./addons/autodecline.rar)
 
-### AutoDing
+### <a name="autoding"></a> AutoDing
 ![AutoDing tooltip](./img/autodingtt.png)
 
 ![](./img/autoding1.png)
@@ -538,7 +580,7 @@ Sends a preformatted level up message to a specified channel, when the player le
 
 [Download](./addons/autoding.rar)   
 
-### Autograts
+### <a name="autograts"></a> Autograts
 ![Autograts tooltip](./img/autogratstt.png)
 
 ![](./img/autograts1.png)
@@ -553,7 +595,7 @@ Sends congratulatory messages to guild members who "ding". Has high level custom
 
 [Download](./addons/autograts.rar)
 
-### AutoInvite
+### <a name="autoinvite"></a> AutoInvite
 ![AutoInvite tooltip](./img/autoinvitett.png)
 
 ![](./img/autoinvite1.png)
@@ -569,7 +611,7 @@ AutoInvite loads defaulted to on, party invites, using the keyword "invite me".
 
 [Download](./addons/autoinvite.rar)
 
-### AutoProfit
+### <a name="autoprofit"></a> AutoProfit
 ![AutoProfit tooltip](./img/autoprofittt.png)
 
 ![](./img/autoprofit1.png)
@@ -584,7 +626,7 @@ Automatically sell gray items when you talk to a vendor
 
 [Download](./addons/autoprofit.rar)
 
-### AutoRepair
+### <a name="autorepair"></a> AutoRepair
 ![AutoRepair tooltip](./img/autorepairtt.png)
 
 ![](./img/autorepair1.png)
@@ -599,7 +641,7 @@ This Mod automatically Kicks in when you visit a vendor who can repair items.
 
 [Download](./addons/autorepair.rar)
 
-### AutoShoutOut
+### <a name="autoshoutout"></a> AutoShoutOut
 ![AutoShoutOut tooltip](./img/autoshoutouttt.png)
 
 ![](./img/autoshoutout1.png)
@@ -615,7 +657,7 @@ Does automated notifications, based on user-defined settings.  Can be used by an
 
 [Download](./addons/autoshoutout.rar)
 
-### Available Only
+### <a name="availableonly"></a> Available Only
 ![Available Only tooltip](./img/availableonlytt.png)
 
 Summary:
@@ -623,3 +665,5 @@ Summary:
 Only shows available items from Trainers
 
 [Download](./addons/availableonly.rar)
+
+## <a name="b_start"></a>B
