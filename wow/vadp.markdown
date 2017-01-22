@@ -130,7 +130,7 @@ Commands:
 Summary:    
 A third-party library, that is used to make addon development easier. Other addons might have a dependency on ACE
 
-[Download](./addons/ace2.rar)
+[Download](./addons/ace.rar)
 
 ### <a name="ace2"></a> Ace 2
 ![Ace 2 tooltip](./img/ace2tt.png)
