@@ -99,7 +99,7 @@ Commands:
 Summary:  
 Helps to save progress, by periodically sending ".save" command. This would only work on servers that allow to manually save.
 
-[Download](./addons/!Autosave.rar)
+[Download](./addons/!AutoSave.rar)
 
 ### <a name="abehfs"></a>ABHelper Estimated Final Score Redux 
 ![ABHEFS tooltip](./img/abhefstt.png)
@@ -130,7 +130,7 @@ Commands:
 Summary:    
 A third-party library, that is used to make addon development easier. Other addons might have a dependency on ACE
 
-[Download](./addons/{2}.rar)
+[Download](./addons/Ace2.rar)
 
 ### <a name="ace2"></a> Ace 2
 ![Ace 2 tooltip](./img/ace2tt.png)
@@ -141,7 +141,7 @@ An updated version of Ace 2. This cannot be used as a replacement for addons tha
 [Download](./addons/ace2.rar)
 
 ### <a name="aceaccept"></a> AceAccept
-![AceAccept tooltip](./img/aceaccepttt.png)
+![AceAccept tooltip](./img/AceAccepttt.png)
 
 Summary:  
 Automatically accepts summons and ressurections
