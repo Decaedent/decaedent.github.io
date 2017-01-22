@@ -99,7 +99,7 @@ Commands:
 Summary:  
 Helps to save progress, by periodically sending ".save" command. This would only work on servers that allow to manually save.
 
-[Download](./addons/!AutoSave.rar)
+[Download](./addons/!autosave.rar)
 
 ### <a name="abehfs"></a>ABHelper Estimated Final Score Redux 
 ![ABHEFS tooltip](./img/abhefstt.png)
@@ -114,7 +114,7 @@ Summary:
 Helps to estimate points needed to win Arathi Basin
 Hello, this is a snippet.
 
-[Download](./addons/ABHEFS.rar)
+[Download](./addons/abhefs.rar)
 
 [comment]: # (TODO: In game image)
 
@@ -130,7 +130,7 @@ Commands:
 Summary:    
 A third-party library, that is used to make addon development easier. Other addons might have a dependency on ACE
 
-[Download](./addons/Ace2.rar)
+[Download](./addons/ace2.rar)
 
 ### <a name="ace2"></a> Ace 2
 ![Ace 2 tooltip](./img/ace2tt.png)
