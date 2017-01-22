@@ -141,7 +141,7 @@ An updated version of Ace 2. This cannot be used as a replacement for addons tha
 [Download](./addons/ace2.rar)
 
 ### <a name="aceaccept"></a> AceAccept
-![AceAccept tooltip](./img/AceAccepttt.png)
+![AceAccept tooltip](./img/aceaccepttt.png)
 
 Summary:  
 Automatically accepts summons and ressurections
