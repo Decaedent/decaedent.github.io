@@ -86,6 +86,64 @@ categories: wow
 * [Buttonhole Advanced](#buttonholead)
 * [BuyEmAll](#buyemall)
 
+### [C](#C_start)
+* [C'Thun Warner](#cthunwarner)
+* [Call To Arms](#calltoarms)
+* [Candy Dice](#candydice)
+* [Carnival Enemy Cast Bar](#carnival_enemycastbar)
+* [CasterStats](#casterstats)
+* [CastingBarTime](#castingbartime)
+* [CastProgress](#castprogress)
+* [CCWatch](#ccwatch)
+* [ChatBox](#!chatbox)
+* [cgCrafty](#cgcrafty)
+* [CharactersViewer](#charactersviewer)
+* [ChatBar](#chatbar)
+* [ChatCast](#chatcast)
+* [Chatr](#chatr)
+* [Chatr Backlog](#chatrbacklog)
+* [ChatScroll](#chatscroll)
+* [Chronos](#chronos)
+* [Class Icons](#classicons)
+* [Clean Minimap](#cleanminimap)
+* [CleanPlayerFrame](#cleanplayerframe)
+* [ClickTarget](#clicktarget)
+* [Clique](#clique)
+* [ClosetGnome](#closetgnome)
+* [CombatStats](#combatstats)
+* [ComboEnergyBar](#comboenergybar)
+* [CooldownCount](#cooldowncount)
+* [CooldownCount (CT)](#cooldowncountct)
+* [CooldownCount (FlexBar)](#cooldowncountflexbar)
+* [CornerMinimap](#cornerminimap)
+* [CountDoom](#countdoom)
+* [CS Addon Organizer](#cs_addonorganizer)
+* [CT AllBags](#ct_allbags)
+* [CT BarMod](#ct_barmod)
+* [CT BottomBar](#ct_bottombar)
+* [CT Buffmod](#ct_buffmod)
+* [CT Expense History](#ct_expensehistory)
+* [CT HailMod](#ct_hailmod)
+* [CT ItemBuffs](#ct_itembuffs)
+* [CT MailMod](#ct_mailmod)
+* [CT MapMod](#ct_mapmod)
+* [CT MasterMod](#ct_mastermod)
+* [CT MovableParty](#ct_movableparty)
+* [CT PartyBuffs](#ct_partybuffs)
+* [CT PlayerNotes](#ct_playernotes)
+* [CT QuestLevels](#ct_questlevels)
+* [CT RABossMods](#ct_rabossmods)
+* [CT RABossModsRazorgore](#ct_rabossrazorgore)
+* [CT RaidAssist](#ct_raidassist)
+* [CT RaidTracker](#ct_raidtracker)
+* [CT ShieldMod](#ct_shieldmod)
+* [CT TickMod](#ct_tickmod)
+* [CT Timer](#ct_timer)
+* [CT UnitFrames](#ct_unitframes)
+* [CT ViewPort](#ct_viewport)
+* [CT RaidAssist Spy](#ctra_spy)
+
+
 ### <a name="autosave"></a>!AutoSave
 ![!AutoSave tooltip](./img/autosavett.png)
 
@@ -911,7 +969,7 @@ Setup has to be done through editing the source code of the addon.
 
 [Download](./addons/bc_ammowarning.rar)
 
-### <a name="bc_aspectmenu"></a> Aspect Menu
+### <a name="bc_aspectmenu"></a> BC Aspect Menu
 ![Aspect Menu tooltip](./img/bc_aspectmenutt.png)
 
 Commands:  
@@ -1213,6 +1271,9 @@ All functions now automatically get the name of the spell being cast and use it 
 " target="_blank"><img src="http://img.youtube.com/vi/rRZAYpkotwQ/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+
+[comment]: # (TODO: change alt text)
+
 Commands:  
 `/buffalo`
 
@@ -1268,4 +1329,783 @@ Summary:
 BuyEmAll enhances the shift-click interface at vendors.
 
 [Download](./addons/buyemall.rar)
+
+## <a name="c_start"></a>C
+
+### <a name="cthunwarner"></a> C'Thun Warner
+![C'Thun Warner tooltip](./img/cthunwarnertt.png)
+
+![](./img/cthunwarner1.png)
+
+Commands:  
+`/ctw`  
+`/ctw help`
+
+Summary:  
+Provides information for C'Thun raids.
+There is an icon that changes in color:  
+Red: DANGER! Risking a chain beam. Move.  
+Green: Safe. Everyone is 10 yards away.  
+
+Players too close are shown in a list. There is an audible beep. Phase 2 will list players in the stomach. The lists are color-coded. Anyone in your party is listed in purple. An alarm will sound and a timer will start when C'Thun is weakened.
+
+
+[comment]: # (TODO: C'thun example) 
+[Download](./addons/cthunwarner.rar)
+
+### <a name="calltoarms"></a> Call To Arms
+![Call To Arms tooltip](./img/calltoarmstt.png)
+
+![source: http://www.wowinterface.com/downloads/info4020-CallToArmsLFGAddOn.html](./img/calltoarms1.png)
+
+![](./img/calltoarms2.png)
+
+Commands:  
+`/cta`
+
+Summary:  
+Find players and groups  
+This feature shows the user a list of all players who are looking to join a group and groups who are currently looking for more players. This is a global list that shows players and groups from all over Azeroth.  
+
+Flag yourself as LFG  
+Using this feature, the player enters a short description of the desired quest/instance etc. that s/he would like to do. This information is placed on the same list that is viewable by all other users globally.  
+
+Find more players for your group  
+CTA lets group leaders create a profile of their group. This profile includes a short description, the maximum size of the group and the level range of the group members. Group leaders can even set the class distribution of the group members. This finformation is posted on the global list so that other users can view it.  
+[WoW Interface](http://www.wowinterface.com/downloads/info4020-CallToArmsLFGAddOn.html)
+
+[Download](./addons/calltoarms.rar)
+
+### <a name="candydice"></a> Candy Dice
+![Candy Dice tooltip](./img/candydicett.png)
+
+![](./img/candydice1.png)
+
+![](./img/candydice2.png)
+
+
+Commands:  
+`/candydice` `/cdice` `/cd`
+
+Summary:  
+Timer bars for rogue skills. This will show a timer bar for the duration of several rogue abilities, as well as a second timer bar for the cooldown.
+
+See the /cdice slash command for options. 
+
+The timer bar can be placed centered or anchored and moved wherever you want it, the cooldown bar is always anchored.
+
+[Download](./addons/candydice.rar)
+
+### <a name="carnival_enemycastbar"></a> Carnival Enemy Cast Bar
+![Carnival Enemy Cast Bar tooltip](./img/carnival_enemycastbartt.png)
+
+![](./img/carnival_enemycastbar1.png)
+
+![](./img/carnival_enemycastbar2.png)
+
+
+Commands:  
+`/cenemycast` `/cecb`
+
+Summary:  
+Displays a replication of your targets spell casting bar on your UI, which can be moved around.  
+Spell casting time is not something that is available to your WoW client, so I have provided cast times for most (if not all spells).As talents can be a factor on the cast time of some spells, the lowest cast time possible is used
+ie. all Shadow Bolt cast times will display at 2.5 seconds even though the player you have targetted doesnt have those specific talents. Interruptions on your target, ie. they get hit, will not adjust the display on your cast bar, as again, its impossible to know if it affected the cast.This currently works for both Alliance and Horde, but has only been really tested playing against alliance characters.Will display either a green cast bar for friendly targets, or a red for a hostile target.  
+
+To move the bars, simply target someone and wait for them to do something, when they do, simply click and drag the FIRST bar that appears.
+This might take a few tries, just get a friend to cast their Hearthstone while you have them targetted and this becomes a whole lot easier :)
+
+[Download](./addons/carnival_enemycastbar.rar)
+
+### <a name="casterstats"></a> CasterStats
+![CasterStats tooltip](./img/casterstatstt.png)
+
+Commands:  
+`/cstats damage`
+`/cstats healing`
+
+Summary:  
+Adds a line to the stat section of the character frame below armor. This line can be set to either show your total "+Spell Damage" or "+Healing" via the command line. Like the other stats in the character screen it provides more information when you mouse over it. The tooltip will display the totals for plus healing, spell damage, all individual schools of damage, spell crit, spell to hit, mana regen etc...
+
+The information that is displayed is only additional stats provided by your gear. If you do not have any of the the listed stats it will not be visible. Caster Stats does not currently calculate crit, or mana regen from stats like int, spirit, or base crit. It is only mean't to be a quick way of finding the bonuses you are getting from your gear. I may implement more features in the future however.
+
+
+[comment]: # (TODO: Caster stats image with sp dmg)
+[Download](./addons/casterstats.rar)
+
+### <a name="castingbartime"></a> CastingBarTime
+![CastingBarTime tooltip](./img/castingbartimett.png)
+
+![](./img/castingbartime1.png)
+
+Summary:  
+Displays time remaining until spellcast.
+
+[Download](./addons/castingbartime.rar)
+
+### <a name="castprogress"></a> CastProgress
+![CastProgress tooltip](./img/castprogresstt.png)
+
+![](./img/castprogress1.png)
+
+![](./img/castprogress2.png)
+
+
+Commands:  
+`/castprogress`
+
+Summary:  
+A more customizeable cast bar.
+
+[Download](./addons/castprogress.rar)
+
+### <a name="ccwatch"></a> CCWatch
+![CCWatch tooltip](./img/ccwatchtt.png)
+
+![](./img/ccwatch1.png)
+
+![](./img/ccwatch2.png)
+
+![](./img/ccwatch3.png)
+
+![](./img/ccwatch4.png)
+
+
+Commands:  
+`/ccwatch` `/ccw`
+
+Summary:  
+A highly customizeable addon that keeps track of enemy buffs, crowd control, and debuffs. Check the "Docs" folder inside the addon for more information
+
+[Download](./addons/ccwatch.rar)
+
+### <a name="!chatbox"></a> ChatBox
+![ChatBox tooltip](./img/!chatboxtt.png)
+
+![](./img/!chatbox1.png)
+
+![](./img/!chatbox2.png)
+
+![](./img/!chatbox3.png)
+
+![](./img/!chatbox4.png)
+
+Commands:  
+`/chatbox` `/cb`  
+`/ts`  
+`/plm`
+
+Summary:  
+An addon that enhances default chatbox
+
+[Download](./addons/!chatbox.rar)
+
+
+
+
+### <a name="cgcrafty"></a> cgCrafty
+![cgCrafty tooltip](./img/cgcraftytt.png)
+
+Summary:  
+cgCrafty offers search functionality to your crafting/tradeskill windows in a 
+lightweight, unobtrusive way. The mod will add a small window attached to the 
+bottom of the currently open crafting/tradeskill window. As of version 2.0, you
+may also link the required reagents/materials required in order to construct/craft the selected item to chat. cgCrafty will not hook into or capture any events until you've actually opened either of the crafting or tradeskill windows. It is written for speed, efficiency and most of all, usability.
+
+
+[comment]: # (TODO: Picture in use: tradeskill)
+
+[Download](./addons/cgcrafty.rar)
+
+### <a name="charactersviewer"></a> CharactersViewer
+![CharactersViewer tooltip](./img/charactersviewertt.png)
+
+![](./img/charactersviewer1.png)
+
+![](./img/charactersviewer2.png)
+
+
+Commands:  
+`/cv`  
+`/cv help`
+
+Summary:  
+A great alt manager. Stores information about your alts, that can be accessed in-game from other alts.
+
+[Download](./addons/charactersviewer.rar)
+
+### <a name="chatbar"></a> ChatBar
+![ChatBar tooltip](./img/chatbartt.png)
+
+![](./img/chatbar1.png)
+
+Summary:  
+Button Bar for opening chat messages of each type.
+
+[Download](./addons/chatbar.rar)
+
+### <a name="chatcast"></a> ChatCast
+![ChatCast tooltip](./img/chatcasttt.png)
+
+![](./img/chatcast1.png)
+
+Commands:  
+`/chatcast` `/cc`
+
+Summary:  
+This addon makes buff, invite, heal, rez, healthstone/soulstone, mage water and other requests into clickable links in your chat window.  When you click on the link, it will cast that buff on the person who requested it.
+
+It will work for triggers in any chat channel although I disabled it in the trade channel.  It also makes 'invite' requests clickable to invite that person, and checks for a wide range of invite offers to make a link that sends a tell requesting an invite from that person.
+
+More information in the attached readme.txt
+
+[Download](./addons/chatcast.rar)
+
+### <a name="chatr"></a> Chatr
+![Chatr tooltip](./img/chatrtt.png)
+
+![](./img/chatr1.png)
+
+Commands:  
+`/chatr`  
+`/chatr help`
+
+Summary:  
+A whisper manager. Allows to keep conversation in separate tabbed windows.
+
+[CurseForge](https://wow.curseforge.com/projects/chatr)  
+[Download](./addons/chatr.rar)
+
+### <a name=""></a> ChatrBacklog
+![ChatrBacklog tooltip](./img/chatrbacklogtt.png)
+
+
+Summary:  
+An extension addon to [chatr](#chatr). Allows to preserve chat history
+
+[Download](./addons/chatrbacklog.rar)
+
+### <a name="chatscroll"></a> ChatScroll
+![ChatScroll tooltip](./img/chatscrolltt.png)
+
+Summary:  
+Lets you use mouse wheel when hovering over chat window to scroll up or down. Is disabled when <var>shift</var> button is held
+
+[Download](./addons/chatscroll.rar)
+
+### <a name="chronos"></a> Chronos
+![Chronos tooltip](./img/chronostt.png)
+
+
+Summary:  
+Chronos manages time. You can schedule a function to be called in X seconds, with or without an id. You can request a timer, which tracks the elapsed duration since the timer was started.
+
+Chronos provides functionality that makes tracking timed tasks and distributed tasks easier. This addon is a function library. This means that it doesn't have any UI on it's own, but rather provides functionality for other addons. If you are an addon user and not an addon developer all you need to do is to leave this addon turned on if you have any other addons that depend on it. 
+
+[WoW Interface](http://www.wowinterface.com/downloads/info4328-Chronos.html)  
+[Download](./addons/chronos.rar)
+
+### <a name="classicons"></a> ClassIcons
+![ClassIcons tooltip](./img/classiconstt.png)
+
+![](./img/classicons1.png)
+
+Commands:  
+`/classicons` `/ci`
+
+Summary:  
+Draws the class icon around the frame. Works for players and npcs.
+
+[Download](./addons/classicons.rar)
+
+### <a name="cleanminimap"></a> CleanMinimap
+![CleanMinimap tooltip](./img/cleanminimaptt.png)
+
+![](./img/cleanminimap1.png)
+
+Commands:  
+`/cleanminimap` `/cmm`
+
+Summary:  
+This mod provides total control over your Minimap including moving it and resizing it (by holding down a modifier key, while clicking the Minimap), hiding the titlebar (and [X] button), the + and - zoom buttons and the daytime/clock button and adding the three other compass points (S,E and W).   
+This mod allows you to zoom the minimap using the mouse wheel and to affect the opacity of the minimap by holding down the (configurable) "modifier" key (default SHIFT) and scrolling the mouse wheel.
+
+You can also have the minimap toggle between large, normal, and small sizes with a single keypress and last, but not least, you can specify the positions of the Blizzard standard Minimap icons, such as the "New Mail" icon, around the circumference of the Minimap.
+
+[Download](./addons/cleanminimap.rar)
+
+
+### <a name=""></a> CleanPlayerFrame
+![CleanPlayerFrame tooltip](./img/cleanplayerframett.png)
+
+![](./img/cleanplayerframe1.png)
+
+Summary:  
+Removes unnecessary text from player frame.
+
+[Download](./addons/cleanplayerframe.rar)
+
+### <a name="clicktarget"></a> ClickTarget
+![ClickTarget tooltip](./img/clicktargettt.png)
+
+Commands:  
+`/clicktarget` `/ctrg`
+
+Summary:  
+Lets you to target a player, by ctrl+click on their name in chat.
+
+[Download](./addons/clicktarget.rar)
+
+### <a name="clique"></a> Clique
+![Clique tooltip](./img/cliquett.png)
+
+![](./img/clique1.png)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1RajkmU-_qE" target="_blank"><img src="http://img.youtube.com/vi/1RajkmU-_qE/0.jpg" 
+alt="Screenshot from a referenced video, that demonstrates grid and clique addons" width="240" height="180" border="10" /></a>
+
+Summary:  
+Clique allows to customize your spells, so that they could be cast, when using mouse keys over unit frames, without actually changing your target.
+
+[Download](./addons/clique.rar)
+
+### <a name=""></a> ClosetGnome
+![ClosetGnome tooltip](./img/closetgnomett.png)
+
+Summary:  
+<span style="color: F00">Broken</span>  
+Seems to be an addon that makes it easier to switch between weapon/armor sets. Can't get it to work.
+
+[Download](./addons/closetgnome.rar)
+
+### <a name="combatstats"></a> CombatStats
+![CombatStats tooltip](./img/combatstatstt.png)
+
+![](./img/combatstats1.png)
+
+![](./img/combatstats2.png)
+
+
+Commands:  
+`/combatstats` `/cs`
+
+Summary:  
+CombatStats is a standalone mod that is packaged with CTMod.  It was not designed by us but is fully functional with our mod.  The mod is displayed above your playerframe and when clicked, displays additional data including hits, misses, and min/max for each attack type, among other things.  Damage displayed in red is dps on you, green is your dps.
+
+[Download](./addons/combatstats.rar)
+
+
+### <a name="comboenergybar"></a> ComboEnergyBar
+![ComboEnergyBar tooltip](./img/comboenergybartt.png)
+
+![](./img/comboenergybar1.png)
+
+![](./img/comboenergybar2.png)
+
+
+Commands:  
+`/ceb show`  
+
+Summary:  
+Displays a moveable combo points bar.
+
+[Download](./addons/comboenergybar.rar)
+
+### <a name="cooldowncount"></a> CooldownCount
+![CooldownCount tooltip](./img/cooldowncounttt.png)
+
+Summary:  
+Status: <span style="color: F00">Broken</span>  
+Doesn't seem to work. I think it should work like OmniCC where cooldown is displayed on the hotkeys.
+
+[Download](./addons/cooldowncount.rar)
+
+### <a name="cooldowncountct"></a> CooldownCount (CT)
+![CooldownCount (CT) tooltip](./img/cooldowncountcttt.png)
+
+Summary:  
+Provides integration for [CooldownCount](#cooldowncount) with [CT BarMod](#ct_barmod)
+
+[Download](./addons/cooldowncountct.rar)
+
+### <a name="cooldowncountflexbar"></a> CooldownCount (FlexBar)
+![CooldownCount (FlexBar) tooltip](./img/cooldowncountflexbartt.png)
+
+Summary:  
+Provides integration for [CooldownCount](#cooldowncount) with [FlexBar](#flexbar)
+
+[Download](./addons/cooldowncountflexbar.rar)
+
+
+### <a name="cornerminimap"></a> CornerMinimap
+![CornerMinimap tooltip](./img/cornerminimaptt.png)
+
+![](./img/cornerminimap1.png)
+
+Summary:  
+A UI mod that changes the shape of minimap to fit into the top right corner.
+[Download](./addons/cornerminimap.rar)
+
+### <a name="countdoom"></a> CountDoom
+![CountDoom tooltip](./img/countdoomtt.png)
+
+![](./img/countdoom1.png)
+
+![](./img/countdoom2.png)
+
+![](./img/countdoom3.png)
+
+
+Commands:  
+`/countdoom` `/cd`
+
+Summary:  
+CountDoom is an Add-On for warlocks.  Originally, it only displayed a counter on the screen whenever a demon is enslaved. The goal was to give the warlock a warning as enslave approaches its maximum duration.
+
+CountDoom can play sounds at specific times to grab your attention.  Currently, a sound may be played when a spell is getting close to wear off and when it finally wears off.
+
+There is more information in the readme file inside the folder.
+
+[Download](./addons/countdoom.rar)
+
+### <a name="cs_addonorganizer"></a> CS Addon Organizer
+![CS Addon Organizer tooltip](./img/cs_addonorganizertt.png)
+
+![](./img/cs_addonorganizer1.png)
+
+Summary:  
+This mod allows you to turn on and off, all of you'r current mods in you'r addon directory. I made this because I wanted a simple and straight way to get an overview of my addons, and a quick way to enable and disable them.
+Now you can create profiles, load them and delete them. Something you all have
+been waiting for.
+
+[Download](./addons/cs_addonorganizer.rar)
+
+### <a name="ct_allbags"></a> CT AllBags
+![CT AllBags tooltip](./img/ct_allbagstt.png)
+
+Summary:  
+Allows to open all 11 bag frames in the bank.  
+
+[comment]: # (TODO: visit bank)
+[Download](./addons/ct_allbags.rar)
+
+### <a name="ct_barmod"></a> CT BarMod
+![CT BarMod tooltip](./img/ct_barmodtt.png)
+
+![](./img/ct_barmod1.png)
+
+Summary:  
+Adds extra hotkey bars.
+Depends on [CT MasterMod](#ct_mastermod)
+
+[Download](./addons/ct_barmod.rar)
+
+### <a name="ct_bottombar"></a> CT BottomBar
+![CT BottomBar tooltip](./img/ct_bottombartt.png)
+
+![](./img/ct_bottombar1.png)
+
+Commands:  
+`/bottombar` `/bb`
+
+Summary:  
+Allows to customize the bottom bar (hotkeys, bag, micro menu, ping indicator, etc).  
+Depends on [CT MasterMod](#ct_mastermod) and [CT BarMod](#ct_barmod)
+
+
+[Download](./addons/ct_bottombar.rar)
+
+### <a name="ct_buffmod"></a> CT Buffmod
+![CT Buffmod tooltip](./img/ct_buffmodtt.png)
+
+![](./img/ct_buffmod1.png)
+
+![](./img/ct_buffmod2.png)
+
+
+Summary:  
+A buff indicator. Allows to toggle between CT and feault style, can give warnings when buffs are close to expiring, display debuffs in red, play a sound when buff expires.
+
+Depends on [CT MasterMod](#ct_mastermod)
+
+[Download](./addons/ct_buffmod.rar)
+
+### <a name="ct_expensehistory"></a> CT Expense History
+![CT Expense History tooltip](./img/ct_expensehistorytt.png)
+
+![](./img/ct_expensehistory1.png)
+
+![](./img/ct_expensehistory2.png)
+
+
+Summary:  
+Keeps track of expenses such as flights, repairs ,reagents, ammo, mail postage. Tries to guess expenses per day, and stores information from alts.
+
+[Download](./addons/ct_expensehistory.rar)
+
+### <a name="ct_hailmod"></a> CT HailMod
+![CT HailMod tooltip](./img/ct_hailmodtt.png)
+
+Summary:  
+Adds a keybind, that when activated sends /s Hail
+
+Depends on [CT MasterMod](#ct_mastermod)
+
+[Download](./addons/ct_hailmod.rar)
+
+### <a name="ct_itembuffs"></a> CT ItemBuffs
+![CT ItemBuffs tooltip](./img/ct_itembuffstt.png)
+
+Summary:  
+Shows item buffs / enchants in the buff bar.  
+Depends on [CT MasterMod](#ct_mastermod) and [CT BuffMod](#ct_buffmod)
+
+[comment]: # (TODO: show item buffs)
+
+[Download](./addons/ct_itembuffs.rar)
+
+### <a name="ct_mailmod"></a> CT MailMod
+![CT MailMod tooltip](./img/ct_mailmodtt.png)
+
+Summary:  
+CT_MailMod adds a \"Mass Mail\" option to your mail window.  This option allows you to send up to 21 items or stacks of items to the same person with one click.  Simply enter their name and add the items, the subject will automatically show each items name, in addition to any subject you enter.
+Each mail will have a 2-4 second delay between sends, based on your latency.
+
+CT_MailMod also adds the ability to Alt+Click to add items to both regular mail and Mass Mail.  In addition, if sending a regular mail, and the subject field is left blank, the items name will automatically be put into the subject.
+
+One final addition that CT_MailMod adds is the ability to auto-fill guildmates names.  Previously, only people on your friends list would be auto filled.
+
+
+[comment]: # (TODO: show mail picture)
+
+[Download](./addons/ct_mailmod.rar)
+
+### <a name="ct_mapmod"></a> CT MapMod
+![CT MapMod tooltip](./img/ct_mapmodtt.png)
+
+![](./img/ct_mapmod1.png)
+
+![](./img/ct_mapmod2.png)
+
+![](./img/ct_mapmod3.png)
+
+Summary:  
+Displays coordinate on the map. Allows to save notes, and even send them to other players.
+
+[Download](./addons/ct_mapmod.rar)
+
+### <a name="ct_mastermod"></a> CT MasterMod
+![CT MasterMod tooltip](./img/ct_mastermodtt.png)
+
+![](./img/ct_mastermod1.png)
+
+![](./img/ct_mastermod2.png)
+
+Summary:  
+Provides core functionality to other mods, that use CT framework. Comes with some default features like: showing a cast timer on the default cast bar, moving the main tooltip, enabling timestamps in chat, and allowing mouse-over scrolling in chat.
+
+[Download](./addons/ct_mastermod.rar)
+
+
+### <a name="ct_movableparty"></a> CT MovableParty
+![CT MovableParty tooltip](./img/ct_movablepartytt.png)
+
+Summary:  
+Status: <span style="color: F00">Broken</span>  
+Does not seem to work, but it seems that is should allow to move the default party frame.  
+Depends on [CT MasterMod](#ct_mastermod)
+
+[Download](./addons/ct_movableparty.rar)
+
+### <a name="ct_partybuffs"></a> CT PartyBuffs
+![CT PartyBuffs tooltip](./img/ct_partybuffstt.png)
+
+![](./img/ct_partybuffs1.png)
+
+![](./img/ct_partybuffs2.png)
+
+Summary:  
+Displays party buffs without hovering.  
+Depends on [CT MasterMod](#ct_mastermod)
+
+[Download](./addons/ct_partybuffs.rar)
+
+### <a name="ct_playernotes"></a> CT PlayerNotes
+![CT PlayerNotes tooltip](./img/ct_playernotestt.png)
+
+![](./img/ct_playernotes1.png)
+
+Summary:  
+Lets you to write down notes on people in your friend list, guild, and ignore list.
+
+[Download](./addons/ct_playernotes.rar)
+
+### <a name="ct_questlevels"></a> CT QuestLevels
+![CT QuestLevels tooltip](./img/ct_questlevelstt.png)
+
+![](./img/ct_questlevels1.png)
+
+Summary:  
+Lets you toggle, if you want to show quest level in the quest log.  
+Depends on [CT MasterMod](#ct_mastermod)
+
+[Download](./addons/ct_questlevels.rar)
+
+
+### <a name="ct_rabossmods"></a> CT RABossMods
+![CT RABossMods tooltip](./img/ct_rabossmodstt.png)
+
+Summary:  
+An extension to [CT RaidAssist](#ct_raidassist) that adds small mods that help you with various raid encounters  
+Depends on [CT MasterMod](#ct_mastermod)
+
+[comment]: # (TODO: picture from a raid)
+[Download](./addons/ct_rabossmods.rar)
+
+
+### <a name="ct_rabossrazorgore"></a> CT RABossModsRazorgore
+![CT RABossModsRazorgore tooltip](./img/ct_rabossrazorgorett.png)
+
+Summary:  
+An extension to [CT RABossMods](#ct_rabossmods) that adds Razorgore to the encounters. Depends also on [Timex](#timex)
+
+[Download](./addons/ct_rabossrazorgore.rar)
+
+### <a name="ct_raidassist"></a> CT RaidAssist
+![CT RaidAssist tooltip](./img/ct_raidassisttt.png)
+
+Commands:  
+`/rs`  
+`/rar`
+
+Summary:  
+In short, CT_RaidAssist reports hp, mana, buffs, and debuffs of anyone or everyone in your raid. You can set it to notify when someone is debuffed with specified types as well as notify when buffs you can recast fade. We''ve added 5 ''MT Target'' options which allow you to specify up to 5 MainTanks''s which users can then select which 1-5 they want to show. When shown, it will show you the target of the person set as MT. It''s a bit similar to EQ''s Target''s Target function though with this, the tank doesn''t even have to be your target. We''ve set it to allow key binding for recasts on notification, so it will say ''player'' has been debuffed by ''debuff name'', press ''key'' to cure. It queues debuffs so you can press the same key x times and cure x people.
+
+You can sort the groups by group, class, or custom sort, and show as many or as few groups as you like. Each group is movable and colors are customizable so you can customize it to your liking. Another addition is the ability to use /rs alerts, which send an on screen alert to everyone using the mod. ''/rs Move to me!'' would show: ''TS: Move to me!'' in user-specified color in the middle of the screen for example. The best way to fully see what it''s capable of is to actually see it in use.
+
+
+[comment]: # (TODO: add picture from raid)
+
+[Download](./addons/ct_raidassist.rar)
+
+
+### <a name="ct_raidtracker"></a> CT RaidTracker
+![CT RaidTracker tooltip](./img/ct_raidtrackertt.png)
+
+![](./img/ct_raidtracker1.png)
+
+Summary:  
+Tracks raid loot, and attendance to raids.
+
+[Download](./addons/ct_raidtracker.rar)
+
+### <a name="ct_shieldmod"></a> CT ShieldMod
+![CT ShieldMod tooltip](./img/ct_shieldmodtt.png)
+
+Summary:  
+Display amount of damage absorbtion there is left on Power Word: Shield
+
+[comment]: # (TODO: picture of priest power word of shield)
+
+[Download](./addons/ct_shieldmod.rar)
+
+### <a name="ct_tickmod"></a> CT TickMod
+![CT TickMod tooltip](./img/ct_tickmodtt.png)
+
+![](./img/ct_tickmod1.png)
+
+Summary:  
+Displays a panel that show resource regeneration.
+
+[Download](./addons/ct_tickmod.rar)
+
+
+### <a name="ct_timer"></a> CT Timer
+![CT Timer tooltip](./img/ct_timertt.png)
+
+![](./img/ct_timer2.png)
+
+![](./img/ct_timer1.png)
+
+Commands:  
+`/timer`
+
+Summary:  
+Displays a simple timer.
+
+[Download](./addons/ct_timer.rar)
+
+### <a name="ct_unitframes"></a> CT UnitFrames
+![CT UnitFrames tooltip](./img/ct_unitframestt.png)
+
+![](./img/ct_unitframes1.png)
+
+![](./img/ct_unitframes2.png)
+
+
+Commands:  
+`/unitframes` `/uf`
+
+Summary:  
+Allows to change the text on the unit frames to percentage, deficit, current value. Also allows to change color of those frames.
+
+[Download](./addons/ct_unitframes.rar)
+
+### <a name="ct_viewport"></a> CT ViewPort
+![CT ViewPort tooltip](./img/ct_viewporttt.png)
+
+![](./img/ct_viewport1.png)
+
+Commands:  
+`/viewport`
+
+Summary:  
+Enables resizing of the rendering of the game world. One use would be to force a different aspect ratio, that is nativaly supported by your monitor.
+
+[Download](./addons/ct_viewport.rar)
+
+
+### <a name="ctra_spy"></a> CT RaidAssist Spy
+![CT RaidAssist Spy tooltip](./img/ctra_spytt.png)
+
+![](./img/ctra_spy1.png)
+
+Commands:  
+`/ctras`
+
+Summary:  
+This addon will alert you when a raid leader checks:
+* Item Queries - /raitem
+* Reagent Queries - /rareg
+* Durability Queries - /radur
+* Resists Queries - /raresist
+
+[WoW Interface](http://www.wowinterface.com/downloads/info5900-CT_RaidAssistSpy.html)  
+[Download](./addons/ctra_spy.rar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
