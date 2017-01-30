@@ -86,7 +86,7 @@ categories: wow
 * [Buttonhole Advanced](#buttonholead)
 * [BuyEmAll](#buyemall)
 
-### [C](#C_start)
+### [C](#c_start)
 * [C'Thun Warner](#cthunwarner)
 * [Call To Arms](#calltoarms)
 * [Candy Dice](#candydice)
@@ -143,6 +143,32 @@ categories: wow
 * [CT ViewPort](#ct_viewport)
 * [CT RaidAssist Spy](#ctra_spy)
 
+### [D](#d_start)
+* [DamageMeters](#damagemeters)
+* [Decursive](#decursive)
+* [Defend Yourself!](#defendyourself)
+* [DepositBox](#depositbox)
+* [DeShift](#deshift)
+* [Detached Mini Buttons](#detachedminibuttons)
+* [Detox](#detox)
+* [DeuceCommander](#deucecommander)
+* [DiabloMod](#diablomod)
+* [DiscoDice](#discodice)
+* [Discord Action Bars](#discordactionbars)
+* [Discord Action Bars Options](#discordactionbaroptions)
+* [DiscordArt](#discordart)
+* [Discord Art Options](#discordartoptions)
+* [Discord Frame Modifier](#discordframemodifier)
+* [Discord Library](#discordlibrary)
+* [Discord Unit Frames](#discordunitframes)
+* [Discord Unit Frames Options](#discordunitframesoptions)
+* [Distance](#distance)
+* [DHud](#dhud)
+* [DHud Options](#dhud_options)
+* [DruidBar](#druidbar)
+* [Duel Inspect](#duelinspect)
+* [DynamicData](#dynamicdata)
+* [DynamicDataItem](#dynamicdataitem)
 
 ### <a name="autosave"></a>!AutoSave
 ![!AutoSave tooltip](./img/autosavett.png)
@@ -2083,19 +2109,374 @@ This addon will alert you when a raid leader checks:
 [WoW Interface](http://www.wowinterface.com/downloads/info5900-CT_RaidAssistSpy.html)  
 [Download](./addons/ctra_spy.rar)
 
+## <a name="d_start"></a>D
+
+### <a name="damagemeters"></a> DamageMeters
+![DamageMeters tooltip](./img/damagemeterstt.png)
+
+![](./img/damagemeters1.png)
+
+![](./img/damagemeters2.png)
+
+![](./img/damagemeters3.png)
+
+![](./img/damagemeters4.png)
 
 
 
+Summary:  
+DamageMeters keeps track of the damage you and nearby players does
+and shows the total damage as meters in a window on the screen.  It makes it
+easy to compare the relative damage/healing output of members of a party or 
+raid.  At any time you can have the mod output the resulting information as 
+text "say"s or to a channel of your choice.
+
+There is a lot more information in the accompanying readme.txt
 
 
+[comment]: # (TODO: video)
+
+[Download](./addons/damagemeters.rar)
+
+### <a name="decursive"></a> Decursive
+![Decursive tooltip](./img/decursivett.png)
+
+![](./img/decursive1.png)
+
+Commands:  
+`/dcrshow`
+`/decursive` to clean someone. Can be bound to a macro
+
+Summary:  
+This is a cleaning mod. Its job it to help a class that can remove debuffs, do it with ease. Load the mod, bind a key (or create a macro '/decursive') and run, no further configuration or editing needed, it auto configures. Run the mod when ever you wish to cleanse a status ailment, or even think one might be on your target, party, or even raid party, if nothing is cleaned, there is no penalty or cool down.
+
+Currently Decursive is configured to automatically select Druid, Priest, Mage, Paladin, Shaman, Felhunter, and Doomguard cleansing spells. The spell choice is done intelligently, only casting the level or specific version needed, saving mana. Items might be added in the future. If you are a warlock, 'Range' and 'mana' are not checked with your felhunter or doomguard
+
+More information available in the accompanying readme.txt
 
 
+[comment]: # (TODO: video)
+
+[Download](./addons/decursive.rar)
+
+### <a name="defendyourself"></a> Defend Yourself!
+![Defend Yourself! tooltip](./img/defendyourselftt.png)
+
+![](./img/defendyourself1.png)
+
+Commands:  
+`/defendyourself` `/dy`
+
+Summary:  
+Auto goes to attack mode when casting spells or when attacked
+
+[Download](./addons/defendyourself.rar)
+
+### <a name="depositbox"></a> DepositBox
+![DepositBox tooltip](./img/depositboxtt.png)
+
+![](./img/depositbox1.png)
+
+Commands:  
+`/depositbox` `/db`
+
+Summary:  
+DepositBox is an addon that lets you store money in a safe place where you can save up cash without being able to accidentally spend it. You can deposit and withdraw your saved gold using the friendly user interface, just type in the amount you want and press the correct button. While money is saved in the DepositBox, it will not show up in your bag nor on merchan windows  This means that you can't accidentally spend money that you've stored away This gives a nice way to save up for important purchases like your epic mount :) A new feature is the DirectDeposit option. Turning this on and setting a percentage will automatically store away that percentage of any money you earn.
+
+[Download](./addons/depositbox.rar)
+
+### <a name="deshift"></a> DeShift
+![DeShift tooltip](./img/deshifttt.png)
+
+Summary:  
+Basically tries to react to some errors. For example: Trying to Starfire, while sitting around in Cat-Form, having no target selected will stand you up on first press, shifting to humanoid form on second, selecting the nearest target on third cast Starfire.
+
+[Download](./addons/deshift.rar)
+
+### <a name="detachedminibuttons"></a> Detached Mini Buttons
+![Detached Mini Buttons tooltip](./img/detachedminibuttonstt.png)
+
+![](./img/detachedminibuttons1.png)
+
+![](./img/detachedminibuttons2.png)
+
+Commands:  
+`/dmbs`
+
+Summary:  
+This mod attempts to 'detach' all your minimap buttons, allowing you to place them anywhere on your screen. Positions are saved per server/character and restored next login.
+
+[Download](./addons/detachedminibuttons.rar)
+
+### <a name="detox"></a> Detox
+![Detox tooltip](./img/detoxtt.png)
+
+![](./img/detox1.png)
+
+![](./img/detox2.png)
 
 
+Commands:  
+`/detox`
+
+Summary:  
+Addon that is based on [Detox](#detox). Allows to hide units that are out of cast range.
+
+[comment]: # (TODO: pictures/video)
+
+[Download](./addons/detox.rar)
+
+### <a name="deucecommander"></a> DeuceCommander
+![DeuceCommander tooltip](./img/deucecommandertt.png)
+
+![](./img/deucecommander1.png)
+
+Commands:  
+`/deucecommander` `/deucecomm`
+
+Summary: 
+A graphical interface for my Ace2 mods' /commands. Adds a GUI interface to a lot of Ace2 mods 
+
+[Download](./addons/deucecommander.rar)
 
 
+### <a name="diablomod"></a> DiabloMod
+![DiabloMod tooltip](./img/diablomodtt.png)
+
+![](./img/diablomod1.png)
+
+Commands:  
+`/discodice` `/ddice`
+
+Summary:  
+
+[Download](./addons/diablomod.rar)
+
+### <a name="discodice"></a> DiscoDice
+![DiscoDice tooltip](./img/discodicett.png)
+
+![](./img/discodice1.png)
+
+![](./img/discodice1.png)
+
+Commands:  
+`/discodice` `/ddice`
+
+Summary:  
+The mod is designed to make it easier to manage Slice and Dice
+
+[Download](./addons/discodice.rar)
+
+### <a name="discordactionbars"></a> Discord Action Bars
+![DiscordActionBars tooltip](./img/discordactionbarstt.png)
+
+![](./img/discordactionbars1.png)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=tolZqY6RmoI
+" target="_blank"><img src="http://img.youtube.com/vi/tolZqY6RmoI/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+Summary:  
+This mod provides you with 10 action bars and 120 buttons to configure how you will. You can set any number of buttons on any bar or setup solo buttons called floaters. Any bar can have any number of pages and any action ID can be set on any button. You can also use a built-in condition / response system to toggle or change bars and floaters on the fly according to game events. Or you can write your own custom scripts to perform such actions. Nigh anything is possible!
+
+Much more information in the accompanying readme file.
+
+Depends on [Discord Library](#discordlibrary)
+
+[Download](./addons/discordactionbars.rar)
+
+### <a name="discordactionbaroptions"></a> Discord Action Bars Options
+![Discord Action Bars Options tooltip](./img/discordactionbarsoptionstt.png)
+
+Commands:  
+`/dab`
+
+Summary:  
+Provides an GUI interface to [Discord Action Bars](#discordactionbars)
+
+Depends on [Discord Library](#discordlibrary)
 
 
+[Download](./addons/discordactionbarsoptions.rar)
+
+### <a name="discordart"></a> DiscordArt
+![DiscordArt tooltip](./img/discordarttt.png)
+
+Summary:  
+Status: <span style="color: F00">Broken</span>
+
+This mod provides you with 20 or more textures to configure and add to your UI. In addition to sprucing up your UI with artwork, they're also fully programmable buttons that can be set to do anything you can code in lua.
+
+Depends on [Discord Library](#discordlibrary)
+
+[Download](./addons/discordart.rar)
+
+### <a name="discordartoptions"></a> Discord Art Options
+![Discord Art Options tooltip](./img/discordartoptionstt.png)
+
+Commands:  
+`/dart`
+
+Summary:  
+Provides an GUI interface to [Discord Art](#discordart)  
+Depends on [Discord Library](#discordlibrary)
+
+[Download](./addons/discordartoptions.rar)
+
+### <a name="discordframemodifier"></a> Discord Frame Modifier
+![Discord Frame Modifier tooltip](./img/discordframemodifiertt.png)
+
+Commands:  
+`/discordframemoddifier` `/dfm`
+
+Summary:  
+Status: <span style="color: F00">Broken</span>
+Can't find options extension for this addond. Can't configure it elsewise.
+
+Depends on [Discord Library](#discordlibrary)
+
+[Download](./addons/discordframemodifier.rar)
+
+### <a name="discordlibrary"></a> Discord Library
+![Discord Library tooltip](./img/discordlibrarytt.png)
+
+Summary:  
+Core addon that other discord addons depend on.
+
+[Download](./addons/discordlibrary.rar)
+
+### <a name="discordunitframes"></a> Discord Unit Frames
+![Discord Unit Frames tooltip](./img/discordunitframestt.png)
+
+![](./img/discordunitframes1.png)
+
+Summary:  
+This mod provides you with 20 or more textures to configure and add to your UI. In addition to sprucing up your UI with artwork, they're also fully programmable buttons that can be set to do anything you can code in lua.
+
+Much more information in accompanying readme file
+
+Depends on [Discord Library](#discordlibrary)
+
+[Download](./addons/discordunitframes.rar)
+
+### <a name="discordunitframesoptions"></a> Discord Unit Frames Options
+![Discord Unit Frames Options tooltip](./img/discordunitframesoptionstt.png)
+
+![](./img/discordunitframesoptions1.png)
+
+Commands:  
+`/discordunitframes` `/duf`
+
+Summary:  
+Provides a GUI to [Discord Unit Frames](#discordunitframes)
+
+Depends on [Discord Library](#discordlibrary)
+
+[Download](./addons/discordunitframesoptions.rar)
+
+### <a name="distance"></a> Distance
+![Distance tooltip](./img/distancett.png)
+
+![](./img/distance1.png)
+
+![](./img/distance2.png)
+
+Commands:  
+`/distance` `/dist`
+
+Summary:  
+Distance shows how far your target is away, based on the spell ranges your class has.  
+White bar: next farther distance 
+Yellow bar: current distance 
+Red bar: next nearer distance 
+
+[Download](./addons/distance.rar)
+
+### <a name="dhud"></a> DHud
+![DHud tooltip](./img/dhudtt.png)
+
+![](./img/dhud1.png)
+
+
+Summary:  
+
+* Configscreen with /dhud menu or via Minimap Button
+* Health/Mana Bars change color according to how filled they are
+* All Bars are animated
+* Shows Level, Name, Class ans Elite/Boss, Pet, NPC
+* Support for Telos Mobhealth / Mobinfo2 / Mobhealth2.
+* 4 Alpha Settings for: Combat / Target selected / No Target / Player is regging
+* 4 Displaymodes for Health / Mana  (1 = 100%, 2 = 456, 3 = 456/1023, 4 = no Display)
+* Many positioning and Scaling Options.
+* Hide Blizzard Player / Targetframe
+* Target Menu with Rightclick on Targetname
+* Player Menu with Rightclick on Playername (F11)
+* Castingbar with Casttime 
+* Option to hide Petbars
+* Option to hide Targetbars / Text
+* Compatible with any WoW Language Versions
+* myAddons Support
+* all Options can be changed with /dhud Slashcommands
+
+Depends on [DHud Options](#dhudoptions)
+
+[Download](./addons/dhud.rar)
+
+### <a name="dhud_options"></a> DHud Options
+![DHud Options tooltip](./img/dhud_optionstt.png)
+
+![](./img/dhud_options1.png)
+
+Commands:  
+`/dhud`
+
+Summary:  
+Provides a GUI to [DHud](#dhud)
+
+[Download](./addons/dhud_options.rar)
+
+### <a name="druidbar"></a> DruidBar
+![DruidBar tooltip](./img/druidbartt.png)
+
+![](./img/druidbar1.png)
+
+Commands:  
+`/druidbar` `/dbar`
+
+Summary:  
+Druid Bar is a movable mana bar that keeps track of your current mana, even in a shapeshifted form like bear or cat. remember that this addon is an estimation of your mana, and it could be slightly higher or lower depending on your level(Lower levels will have more problems since there is much less room for error with their smaller mana pools).
+
+There is more information in the accompanying readme file
+
+[comment]: # (TODO: add druid image / video)
+
+[Download](./addons/druidbar.rar)
+
+### <a name="duelinspect"></a> Duel Inspect
+![Duel Inspect tooltip](./img/duelinspecttt.png)
+
+![](./img/duelinspect1.png)
+
+Summary:  
+Provides information about a person who challenges you to a duel.
+
+[Download](./addons/duelinspect.rar)
+
+### <a name="dynamicdata"></a> DynamicData
+![DynamicData tooltip](./img/dynamicdatatt.png)
+
+Summary:  
+An addon library
+
+[Download](./addons/dynamicdata.rar)
+
+### <a name="dynamicdataitem"></a> DynamicDataItem
+![DynamicDataItem tooltip](./img/dynamicdataitemtt.png)
+
+Summary:  
+An addon library
+
+[Download](./addons/dynamicdataitem.rar)
 
 
 
