@@ -170,6 +170,18 @@ categories: wow
 * [DynamicData](#dynamicdata)
 * [DynamicDataItem](#dynamicdataitem)
 
+### [E](#e_start)
+* [EasyUnlock](#easyunlock)
+* [eCastingBar](#ecastingbar)
+* [ElkBuffBar](#elkbuffbar)
+* [Enchanter Ad Shrinker](#enchanteradshrinker)
+* [Enchantrix](#enchantrix)
+* [Energy Watch](#energywatch_v2)
+* [EnhTooltip](#enhtooltip)
+* [Equip Compare](#equipcompare)
+* [Extended Quest Log](#eql3)
+* [EzDismount](#ezdismount)
+
 ### <a name="autosave"></a>!AutoSave
 ![!AutoSave tooltip](./img/autosavett.png)
 
@@ -2477,6 +2489,167 @@ Summary:
 An addon library
 
 [Download](./addons/dynamicdataitem.rar)
+
+## <a name="e_start"></a>E
+
+### <a name="easyunlock"></a> EasyUnlock
+![EasyUnlock tooltip](./img/easyunlocktt.png)
+
+Summary:  
+Makes unlocking of lockboxes simpler, show level requirement on lockbox tooltips.
+
+
+[comment]: # (TODO: rogue unlock picture)
+[Download](./addons/easyunlock.rar)
+
+### <a name="ecastingbar"></a> eCastingBar
+![eCastingBar tooltip](./img/ecastingbartt.png)
+
+![](./img/ecastingbar1.png)
+
+![](./img/ecastingbar2.png)
+
+![](./img/ecastingbar3.png)
+
+
+Commands:  
+`/ecastingbar` `/ecb`
+
+Summary:  
+A replacement for the default Blizzard cast bar. Also replaces breath bar.
+
+[Download](./addons/ecastingbar.rar)
+
+### <a name="elkbuffbar"></a> ElkBuffBar
+![ElkBuffBar tooltip](./img/elkbuffbartt.png)
+
+![](./img/elkbuffbar1.png)
+
+![](./img/elkbuffbar2.png)
+
+Commands:  
+`/elkbuffbar` `/ebb`
+
+Summary:  
+This addon provides status bar style indicators for the buffs and debuffs that are currently applied to your character. It will also show temporary weapon buffs like eg poisons, counts for stackable debuffs or buffs with charges and the debuff borders introduced with 1.11. Hopefully this addon will have a much smaller memory footprint than other addons of its kind by using CreateFrame in order to instaciate only as many frames as needed.
+
+[Download](./addons/elkbuffbar.rar)
+
+### <a name="enchanteradshrinker"></a> Enchanter Ad Shrinker
+![Enchanter Ad Shrinker tooltip](./img/enchanteradshrinkertt.png)
+
+Commands:  
+`/enchantadshrinker` `/eas`
+
+Summary:  
+This add-on will automatically replace long enchanter advertisement messages with a clickable link that looks and behaves similarly to a regular item link in chat. 
+eg: Normal Chat:  
+"[PlayerName]: Selling enchants! Demonslaying, beastslaying, fiery +7 stamina...(etc)"  
+with EAS:
+"[PlayerName]: [Enchantments]"
+
+[Curse Forge](https://wow.curseforge.com/projects/project-1177/pages/main-de-de)
+
+[comment]: # (TODO: enchant selling picture)
+[Download](./addons/enchanteradshrinker.rar)
+
+### <a name="enchantrix"></a> Enchantrix
+![Enchantrix tooltip](./img/enchantrixtt.png)
+
+![](./img/enchantrix1.png)
+
+Commands:  
+`/enchantrix` `/enchant` `/enx`
+
+Summary:  
+This is an addon for World of Warcraft that add a list of what an item disenchants into to the items that you mouse-over in the game.
+
+Depends on [EnhTooltip](#enhtooltip)
+
+[comment]: # (TODO: picture of enchanting tool tip)
+
+[Download](./addons/enchantrix.rar)
+
+### <a name="energywatch_v2"></a> Energy Watch
+![Energy Watch tooltip](./img/energywatch_v2tt.png)
+
+![](./img/energywatch_v21.png)
+
+Commands:  
+`/energywatch` `/ew`
+
+Summary:  
+Displays energy ticks and combo points on a progress bar
+
+[Download](./addons/energywatch_v2.rar)
+
+### <a name="enhtooltip"></a> EnhTooltip
+![EnhTooltip tooltip](./img/enhtooltiptt.png)
+
+Summary:  
+EnhTooltip is a tooltip library that supports both embedded (integrated into an existing tooltip object) and separate (its own tooltip attached to an existing tooltip) data to be printed to an on-screen tooltip. EnhTooltip also supports money objects on each line. EnhTooltip is also a LoadOnDemand AddOn based on [Stubby](#stubby), so it goes well with other LoadOnDemand AddOns.
+
+[Download](./addons/enhtooltip.rar)
+
+### <a name="equipcompare"></a> Equip Compare
+![Equip Compare tooltip](./img/equipcomparett.png)
+
+![](./img/equipcompare1.png)
+
+![](./img/equipcompare2.png)
+
+
+Commands:  
+`/equipcompare` `/eqc`
+`/eqc help`
+
+Summary:  
+When you shop for items at a vendor or the Auction House and you hover over an item, you get a comparison tooltip showing the "currently equipped" item too. This AddOn adds such a feature everywhere in the game where you can hover over items, such as in your bags, in the loot window or on the reward page of a quest. You also receive comparison tooltips when clicking an item link in the chat box.  
+There is more information in the accompanying "Description.txt"
+
+[Download](./addons/equipcompare.rar)
+
+### <a name="eql3"></a> Extended Quest Log 
+![Extended Quest Log  tooltip](./img/eql3tt.png)
+
+![](./img/eql31.png)
+
+![](./img/eql32.png)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=hpPPryE7pfU
+" target="_blank"><img src="http://img.youtube.com/vi/hpPPryE7pfU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+Commands:  
+`/eql`
+
+Summary:  
+An improved quest frame addon. Expands quest descriptions to the left, and provides quite a few customization options.
+
+[Download](./addons/eql3.rar)
+
+### <a name="ezdismount"></a> EzDismount
+![EzDismount tooltip](./img/ezdismounttt.png)
+
+![](./img/ezdismount1.png)
+
+Commands:  
+`/ezdismount` `/ezd`
+
+Summary:  
+Helps with most of the "cannot do X while mounted" errors, and automatically dismounts.
+
+[Download](./addons/ezdismount.rar)
+
+
+
+
+
+
+
+
+
+
 
 
 
