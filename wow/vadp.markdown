@@ -182,6 +182,57 @@ categories: wow
 * [Extended Quest Log](#eql3)
 * [EzDismount](#ezdismount)
 
+### [F](#f_start)
+* [FastQuest](#fastquest)
+* [FilterFix](#filterfix)
+* [FilterKnown](#filterknown)
+* [FishEase](#fishease)
+* [Fishing Buddy](#fishingbuddy)
+* [Fix CT Groups](#fixctgroups)
+* [FlexBar](#flexbar)
+* [FlightMap](#flightmap)
+* [Flightpath](#flightpath)
+* [FlightTime](#flighttime)
+* [Follow The Leader](#followtheleader)
+* [FriendsFacts](#friendsfacts)
+* [FruityLoots](#fruityloots)
+* [FuBar](#fubar)
+* [Fubar Atlas](#fubar_atlasfu2)
+* [Fubar BagFu](#fubar_bagfu)
+* [FuBartender](#fubartender2)
+* [Fubar BattlegroundFu](#fubar_battlegroundfu)
+* [Fubar ClockFu](#fubar_clockfu)
+* [Fubar CombatTimeFu](#fubar_combattimefu)
+* [Fubar DamageMetersFu](#fubar_damagemetersfu)
+* [Fubar DPS](#fubar_dps)
+* [Fubar DurabilityFu](#fubar_durabilityfu)
+* [Fubar DuraTek](#fubar_duratek)
+* [Fubar EmoteFu](#fubar_emotefu)
+* [Fubar Experienced](#fubar_experienced)
+* [Fubar ExperienceFu](#fubar_experiencefu)
+* [Fubar GarbageFu](#fubar_garbagefu)
+* [Fubar GroupFu](#fubar_groupfu)
+* [Fubar GuildFu](#fubar_guildfu)
+* [Fubar HonorFu](#fubar_honorfu)
+* [Fubar ItemBonusesFu](#fubar_itembonusesfu)
+* [Fubar KCIFu](#fubar_kcifu)
+* [Fubar LocationFu](#fubar_locationfu)
+* [Fubar MailFu](#fubar_mailfu)
+* [Fubar ModMenuTuFu](#fubar_modmenutufu)
+* [Fubar MoneyFu](#fubar_moneyfu)
+* [Fubar PerformanceFu](#fubar_performancefu)
+* [Fubar QuestsFu](#fubar_questsfu)
+* [Fubar RecapFu](#fubar_recapfu)
+* [Fubar RegenFu](#fubar_regenfu)
+* [Fubar SkillsPlusFu](#fubar_skillsplusfu)
+* [Fubar SWStatsFu](#fubar_swstatsfu)
+* [Fubar ToFu](#fubar_tofu)
+* [Fubar VolumeFu](#fubar_volumefu)
+* [Fubar Compatability 1.2](#fubar-compat-1.2)
+* [FubarPlugin 2.0](#fubarplugin-2.0)
+* [FuTextures](#futextures)
+
+
 ### <a name="autosave"></a>!AutoSave
 ![!AutoSave tooltip](./img/autosavett.png)
 
@@ -2640,6 +2691,604 @@ Summary:
 Helps with most of the "cannot do X while mounted" errors, and automatically dismounts.
 
 [Download](./addons/ezdismount.rar)
+
+
+## <a name="f_start"></a>F
+
+
+### <a name="fastquest"></a> FastQuest
+![FastQuest tooltip](./img/fastquesttt.png)
+
+![](./img/fastquest1.png)
+
+![](./img/fastquest2.png)
+
+
+Commands:  
+`/fastquest` `/fq`
+
+Summary:  
+FastQuest is an addon to enhance quest log displaying, quest tracking, and quest progress notification. 
+
+[Download](./addons/fastquest.rar)
+
+### <a name="filterfix"></a> FilterFix
+![FilterFix tooltip](./img/filterfixtt.png)
+
+![](./img/filterfix1.png)
+
+Commands:  
+`/filterfix` `/ff`
+
+Summary:  
+Automatically hides skills that cannot be learned from the trainer
+
+[Download](./addons/filterfix.rar)
+
+### <a name="filterknown"></a> FilterKnown
+![FilterKnown tooltip](./img/filterknowntt.png)
+
+Summary:  
+Colors "Already known" auction items, so you can tell which you know/don't know at a glance.
+
+[comment]: # (TODO: auction picture)
+
+[Download](./addons/filterknown.rar)
+
+### <a name="fishease"></a> FishEase
+![FishEase tooltip](./img/fisheasett.png)
+
+![](./img/fishease1.png)
+
+Commands:  
+`/fishease`
+
+Summary:  
+Status: <span style="color: F00">Broken</span>  
+Fishing helper, but seems to be outdated and broken.
+
+[Download](./addons/fishease.rar)
+
+### <a name="fishingbuddy"></a> Fishing Buddy
+![Fishing Buddy tooltip](./img/fishingbuddytt.png)
+
+![](./img/fishingbuddy1.png)
+
+Commands:  
+`/fishingbuddy` `/fb`
+
+Summary:  
+It's a combination of TackleBox,
+ Impp's Fishing Info and a fishing outfit manager all rolled into one. I
+ wrote it both to provide some functionality that was missing from all
+ of the other fishing add-ons I was using and to learn to do add-ons.
+
+ Features:
+* 'Easy Cast' lets you right-click to cast your line. Use the same mouse button for looting and casting. A double-click will force another cast early
+* 'Fish Watcher' lets you see the fish you've caught here before (or the fish that you've caught in the current session)
+* Display your current skill level and the time since you started fishing
+* Choose your fishing outfit and change into it easily
+* Support for automatically adding a lure to your fishing pole
+* Full Titan Panel support
+* myAddOns support
+* Preliminary support for tracking 'cycle fish' such as the Nightfin Snapper so you know when to go looking for them
+* 
+[Download](./addons/fishingbuddy.rar)
+
+### <a name="fixctgroups"></a> Fix CT Groups
+![Fix CT Groups tooltip](./img/fixctgroupstt.png)
+
+![](./img/fixctgroups1.png)
+
+Commands:  
+`/fixctgroups` `/fctg` `/ctg`
+
+Summary:  
+This mod simply lines up the CT_RaidAssist group frames nicely.
+You no longer need to try to align them perfectly manually. It
+also allows you to drag a group  and drag the rest of the groups
+with it.
+If you wish to be able to drag each group individually again,
+check the box next to Default CTRA Style.
+A checkbox is provided to hide or show all groups at once as a
+conveinance, it functions exactly the same as the Show All Groups
+checkbox on the CTRaid tab.
+
+[Download](./addons/fixctgroups.rar)
+
+### <a name="flexbar"></a> FlexBar
+![FlexBar tooltip](./img/flexbartt.png)
+
+![](./img/flexbar1.png)
+
+![](./img/flexbar2.png)
+
+
+Commands:  
+`/flexbar`
+
+Summary:  
+Flexbar provides 120 buttons that can be moved, scaled, shaded, hidden, shown and alpha blended completely independently of one another.  This allows you to put just as many buttons as you need, just where you need.  
+In additon to basic extra bar functionality, FlexBar employs an event (think trigger) / action (command) architecture.  It is constantly keeping track of the status of a wide number of things from your buffs to your health to whether you have a target or not.  When it detects a change in these it raise an event that you can have a command respond to - such as showing your overpower button when your opponent dodges.  
+Additionally FlexBar provides some extras that just came with the territory
+
+There is a ton more documentation in the "FlexBar Docs" folder.
+
+[Download](./addons/flexbar.rar)
+
+### <a name="flightmap"></a> FlightMap
+![FlightMap tooltip](./img/flightmaptt.png)
+
+![](./img/flightmap1.png)
+
+![](./img/flightmap2.png)
+
+Commands:  
+`/flightmap` `/fmap`
+
+Summary:  
+Show all flight line available from a zone when hovering over it in world map, as well as their cost. Shows flight duration with a progress bar. Shows flight master locations on the world map
+
+[Download](./addons/flightmap.rar)
+
+### <a name="flightpath"></a> Flightpath
+![Flightpath tooltip](./img/flightpathtt.png)
+
+![](./img/flightpath1.png)
+
+Commands:  
+`/fp`
+`/fp ?`
+
+Summary:  
+This World of Warcraft addon makes flying around the world of Azeroth a
+little easier.
+It automatically learns flight paths as you talk to flight masters. It also comes with a list of flight paths, zeppelin routes, and boat connections that you can load if you desire.
+
+[Download](./addons/flightpath.rar)
+
+### <a name="flighttime"></a> FlightTime
+![FlightTime tooltip](./img/flighttimett.png)
+
+![](./img/flighttime1.png)
+
+Commands:  
+`/flighttime` `/ft`
+
+Summary:  
+Shows timer for how long the flight will last.
+
+[Download](./addons/flighttime.rar)
+
+### <a name="followtheleader"></a> Follow The Leader
+![Follow The Leader tooltip](./img/followtheleadertt.png)
+
+Summary:  
+If someone tells you to "follow" them, you will.  If they tell you to "stop" you will stop following them.  These commands must come in the form of a tell/whisper.  You will only follow players that are in your party, on you friends list, or in your guild.
+
+[Download](./addons/followtheleader.rar)
+
+### <a name="friendsfacts"></a> FriendsFacts
+![FriendsFacts tooltip](./img/friendsfactstt.png)
+
+![](./img/friendsfacts1.png)
+
+
+Summary:  
+Status: <span style="color: F00">Broken</span>  
+Remember friends level, class and location after they've logged off. 
+
+[Download](./addons/friendsfacts.rar)
+
+
+### <a name="fruityloots"></a> FruityLoots
+![FruityLoots tooltip](./img/fruitylootstt.png)
+
+![](./img/fruityloots1.png)
+
+![](./img/fruityloots2.png)
+
+Commands:  
+`/fruityloots` `/floots`
+
+Summary:  
+Automatically moves the loot window under your mouse
+
+[Download](./addons/fruityloots.rar)
+
+### <a name="fubar"></a> FuBar
+![FuBar tooltip](./img/fubartt.png)
+
+![](./img/fubar1.png)
+
+![](./img/fubar2.png)
+
+![](./img/fubar3.png)
+
+Commands:  
+`/fubar`
+
+Summary:  
+A base panel for other FuBar plugins.
+
+[Download](./addons/fubar.rar)
+
+### <a name="fubar_atlasfu2"></a> Fubar Atlas
+![Fubar Atlas tooltip](./img/fubar_atlasfu2tt.png)
+
+![](./img/fubar_atlasfu21.png)
+
+Summary:  
+Shows [Atlas](#atlas) button as a FuBar button
+
+[Download](./addons/fubar_atlasfu2.rar)
+
+### <a name="fubar_bagfu"></a> Fubar BagFu
+![Fubar BagFu tooltip](./img/fubar_bagfutt.png)
+
+![](./img/fubar_bagfu1.png)
+
+Summary:  
+
+Plugin for [Fubar](#fubar) that  displays the inventory status
+
+[Download](./addons/fubar_bagfu.rar)
+
+### <a name="fubartender2"></a> FuBartender
+![FuBartender tooltip](./img/fubartender2tt.png)
+
+![](./img/fubartender21.png)
+
+Summary:  
+
+[Download](./addons/fubartender2.rar)
+
+### <a name="fubar_battlegroundfu"></a> Fubar BattlegroundFu
+![Fubar BattlegroundFu tooltip](./img/fubar_battlegroundfutt.png)
+
+![](./img/fubar_battlegroundfu1.png)
+
+
+Summary:  
+Requires [Fubar Compatability 1.2](#fubar-compat-1.2)
+
+Provides information about battlegrounds.
+
+[comment]: # (TODO: in bg photo)
+
+[Download](./addons/fubar_battlegroundfu.rar)
+
+### <a name="fubar_clockfu"></a> Fubar ClockFu
+![Fubar ClockFu tooltip](./img/fubar_clockfutt.png)
+
+![](./img/fubar_clockfu1.png)
+
+Summary:  
+A simplistic clock plugin for [Fubar](#fubar)
+
+[Download](./addons/fubar_clockfu.rar)
+
+### <a name="fubar_combattimefu"></a> Fubar CombatTimeFu
+![Fubar CombatTimeFu tooltip](./img/fubar_combattimefutt.png)
+
+Summary:  
+Status: <span style="color: F00">Broken</span>
+
+Should show amount of time spent in combat, can't seem to get it to show up on the fubar though.
+
+[Download](./addons/fubar_combattimefu.rar)
+
+
+### <a name="fubar_damagemetersfu"></a> Fubar DamageMetersFu
+![Fubar DamageMetersFu tooltip](./img/fubar_damagemetersfutt.png)
+
+
+Summary:  
+Status: <span style="color: F00">Broken</span>  
+Keeps throwing nil errors
+
+DamageMetersFu provides DamageMeters data to FuBar which was 
+previously unavailable unless the DamageMeters window was open.  
+One of the advantages is that it allows you display multiple "types" 
+of damage in relationship to the player, rather than just one at a time.
+
+[Download](./addons/fubar_damagemetersfu.rar)
+
+### <a name="fubar_dps"></a> Fubar DPS
+![Fubar DPS tooltip](./img/fubar_dpstt.png)
+
+![](./img/fubar_dps1.png)
+
+Summary:  
+A simple DPS plugin for [Fubar](#fubar)
+
+[Download](./addons/fubar_dps.rar)
+
+### <a name="fubar_durabilityfu"></a> Fubar DurabilityFu
+![Fubar DurabilityFu tooltip](./img/fubar_durabilityfutt.png)
+
+![](./img/fubar_durabilityfu1.png)
+
+![](./img/fubar_durabilityfu2.png)
+
+
+Summary:  
+Keeps track of durability and pops up a dialog to repair when you go to a vendor who can.
+
+[Download](./addons/fubar_durabilityfu.rar)
+
+### <a name="fubar_duratek"></a> Fubar DuraTek
+![Fubar DuraTek tooltip](./img/fubar_duratektt.png)
+
+![](./img/fubar_duratek1.png)
+
+![](./img/fubar_duratek2.png)
+
+Summary:  
+A simple durability plugin.
+
+[Download](./addons/fubar_duratek.rar)
+
+### <a name="fubar_emotefu"></a> Fubar EmoteFu
+![Fubar EmoteFu tooltip](./img/fubar_emotefutt.png)
+
+![](./img/fubar_emotefu1.png)
+
+Commands:  
+`/emotefu`
+
+Summary:  
+Allows you to easily access emotes, saving the time and hassle of memorizing the emote commands!  Ported from TitanEmoteMenu by Dsanai of Whisperwind.
+
+[Download](./addons/fubar_emotefu.rar)
+
+### <a name="fubar_experienced"></a> Fubar Experienced
+![Fubar Experienced tooltip](./img/fubar_experiencedtt.png)
+
+![](./img/fubar_experienced1.png)
+
+Summary:  
+An experience tracking module for [Fubar](#fubar)
+
+[Download](./addons/fubar_experienced.rar)
+
+### <a name="fubar_experiencefu"></a> Fubar ExperienceFu
+![Fubar ExperienceFu tooltip](./img/fubar_experiencefutt.png)
+
+![](./img/fubar_experiencefu1.png)
+
+Summary:  
+Keeps track of experience.
+
+[Download](./addons/fubar_experiencefu.rar)
+
+### <a name="fubar_garbagefu"></a> Fubar GarbageFu
+![Fubar GarbageFu tooltip](./img/fubar_garbagefutt.png)
+
+Summary:  
+If bags are full, it will drop the least valuable item, when trying to pick something up.
+
+[Download](./addons/fubar_garbagefu.rar)
+
+### <a name="fubar_groupfu"></a> Fubar GroupFu
+![Fubar Groupfu tooltip](./img/fubar_groupfutt.png)
+
+![](./img/fubar_groupfu1.png)
+
+![](./img/fubar_groupfu2.png)
+
+Summary:  
+A [FuBar](#fubar) plugin that adds group management functions, loot method detection, and roll management.
+
+[Download](./addons/fubar_groupfu.rar)
+
+### <a name="fubar_guildfu"></a> Fubar GuildFu
+![Fubar GuildFu tooltip](./img/fubar_guildfutt.png)
+
+![](./img/fubar_guildfu1.png)
+
+Summary:  
+Provides a plugin for [Fubar](#fubar) to display information about the player's guild.
+
+[Download](./addons/fubar_guildfu.rar)
+
+### <a name=""></a> Fubar HonorFu
+![Fubar HonorFu tooltip](./img/fubar_honorfutt.png)
+
+![](./img/fubar_honorfu1.png)
+
+Summary:  
+Keeps track of honor and PvP statistics.
+
+[Download](./addons/fubar_honorfu.rar)
+
+### <a name="fubar_itembonusesfu"></a> Fubar ItemBonusesFu
+![Fubar ItemBonusesFu tooltip](./img/fubar_itembonusesfutt.png)
+
+![](./img/fubar_itembonusesfu1.png)
+
+
+Summary:  
+Provides a module for [Fubar](#fubar) that displays various different bonuses you currently have from equipment.
+
+[Download](./addons/fubar_itembonusesfu.rar)
+
+### <a name="fubar_kcifu"></a> Fubar KCIFu
+![Fubar KCIFu tooltip](./img/fubar_kcifutt.png)
+
+![](./img/fubar_kcifu1.png)
+
+Summary:  
+Status: <span style="color: F00">Broken</span>
+
+Should provide a more accessible menu to [KC Items](#kc_items)
+
+[Download](./addons/fubar_kcifu.rar)
+
+### <a name="fubar_locationfu"></a> Fubar LocationFu
+![Fubar LocationFu tooltip](./img/fubar_locationfutt.png)
+
+![](./img/fubar_locationfu1.png)
+
+Summary:  
+A [Fubar](#fubar) module that provides information about current location
+
+[Download](./addons/fubar_locationfu.rar)
+
+### <a name="fubar_mailfu"></a> Fubar MailFu
+![Fubar MailFu tooltip](./img/fubar_mailfutt.png)
+
+![](./img/fubar_mailfu1.png)
+
+Summary:  
+Provides a simple new mail notifier inside a [Fubar](#fubar) panel
+
+[Download](./addons/fubar_mailfu.rar)
+
+### <a name="fubar_modmenutufu"></a> Fubar ModMenuTuFu
+![Fubar ModMenuTuFu tooltip](./img/fubar_modmenutufutt.png)
+
+![](./img/fubar_modmenutufu1.png)
+
+Summary:  
+Adds a button to [Fubar](#fubar) panel, from which you can manage addons.
+
+[Download](./addons/fubar_modmenutufu.rar)
+
+### <a name="fubar_moneyfu"></a> Fubar MoneyFu
+![Fubar MoneyFu tooltip](./img/fubar_moneyfutt.png)
+
+![](./img/fubar_moneyfu1.png)
+
+Summary:  
+Provides a [Fubar](#fuabr) widget that keeps track of current money and all your characters on one realm.
+
+[Download](./addons/fubar_moneyfu.rar)
+
+### <a name="fubar_performancefu"></a> Fubar PerformanceFu
+![Fubar PerformanceFu tooltip](./img/fubar_performancefutt.png)
+
+![](./img/fubar_performancefu1.png)
+
+Summary:  
+Provides a [Fubar](#fuabr) widget that keeps track of performance of memory, latency, and framerate.
+
+[Download](./addons/fubar_performancefu.rar)
+
+### <a name="fubar_questsfu"></a> Fubar QuestsFu
+![Fubar QuestsFu tooltip](./img/fubar_questsfutt.png)
+
+![](./img/fubar_questsfu1.png)
+
+Summary:  
+
+Depends on: [Ace2](#ace2), [Fubar Compatability 1.2](#fubar-compat-1.2)  
+This is a quest-tracker replacement plugin for FuBar. It provides a tooltip which replicates /most/ of the information from the quest log.  (Quest
+levels, difficulty, objectives, zones, and so on.)  In addition, quest completion status can be shown in the tooltips for quest items and monsters.
+
+Shift-click on quests in the tooltip to add them to Blizzard's quest-tracker.
+Control-click on quests in the tooltip to share them with your party.
+Alt-click on quests in the tooltip to copy them to the chatbox if it's open.
+
+[Download](./addons/fubar_questsfu.rar)
+
+### <a name="fubar_recapfu"></a> Fubar RecapFu
+![Fubar RecapFu tooltip](./img/fubar_recapfutt.png)
+
+![](./img/fubar_recapfu1.png)
+
+Summary:  
+Depends on: [Fubar Compatability 1.2](#fubar-compat-1.2)  
+Provides [Recap](#recap) integration with [Fubar](#fubar)
+
+[Download](./addons/fubar_recapfu.rar)
+
+### <a name="fubar_regenfu"></a> Fubar RegenFu
+![Fubar RegenFu tooltip](./img/fubar_regenfutt.png)
+
+![](./img/fubar_regenfu1.png)
+
+Summary:  
+A [Fubar](#fubar) widget that keeps track of regen statistics
+
+[Download](./addons/fubar_regenfu.rar)
+
+### <a name="fubar_skillsplusfu"></a> Fubar SkillsPlusFu
+![Fubar SkillsPlusFu tooltip](./img/fubar_skillsplusfutt.png)
+
+![](./img/fubar_skillsplusfu1.png)
+
+Summary:  
+Depends on: [Fubar Compatability 1.2](#fubar-compat-1.2)  
+A [Fubar](#fubar) plugin that shows current levels of various skills.
+
+[Download](./addons/fubar_skillsplusfu.rar)
+
+### <a name="fubar_swstatsfu"></a> Fubar SWStatsFu
+![Fubar SWStatsFu tooltip](./img/fubar_swstatsfutt.png)
+
+![](./img/fubar_swstatsfu1.png)
+
+Summary:  
+Provides [SWStats](#swstats) integration into [Fubar](#fubar).
+
+[Download](./addons/fubar_swstatsfu.rar)
+
+### <a name="fubar_tofu"></a> Fubar ToFu
+![Fubar ToFu tooltip](./img/fubar_tofutt.png)
+
+![](./img/fubar_tofu1.png)
+
+Summary:  
+Shows travel time on gryphons inside [Fubar](#fubar) panel. Provides integration with other addons, such as BigWigs, Chronometer, oCB, oCD
+
+[Download](./addons/fubar_tofu.rar)
+
+### <a name="fubar_volumefu"></a> Fubar VolumeFu
+![Fubar VolumeFu tooltip](./img/fubar_volumefutt.png)
+
+![](./img/fubar_volumefu1.png)
+
+Summary:  
+Provides volume controls inside a [Fubar](#fubar) panel
+
+[Download](./addons/fubar_volumefu.rar)
+
+
+### <a name="fubar-compat-1.2"></a> Fubar Compatability 1.2
+![Fubar Compatability 1.2 tooltip](./img/fubar-compat-1.2tt.png)
+
+Summary:  
+Provides a compatitability layer, that allows older FuBar 1.2 plugins to work with Fubar 2.0
+
+[Download](./addons/fubar-compat-1.2.rar)
+
+### <a name="fubarplugin-2.0"></a> FubarPlugin 2.0
+![FubarPlugin 2.0 tooltip](./img/fubarplugin-2.0tt.png)
+
+Summary:  
+A library for [Fubar](#fubar) plugin development.
+
+[Download](./addons/fubarplugin-2.0.rar)
+
+### <a name="futextures"></a> FuTextures
+![FuTextures tooltip](./img/futexturestt.png)
+
+Summary:  
+Provides a back of various background textures for [Fubar](#fubar).
+
+[Download](./addons/futextures.rar)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
