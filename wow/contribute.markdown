@@ -5,7 +5,7 @@ date: 2017-01-21 20:00 +0100
 categories: wow
 ---
 
-If you would like to contribute, you could give feedback through issues tab at the [project page](https://github.com/Decaedent/decaedent.github.com/issues)
+If you would like to contribute, you could give feedback through issues tab at the [project page](https://github.com/Decaedent/decaedent.github.io/issues)
 
 You could also submit pull requests with more addons documentation added. 
 
