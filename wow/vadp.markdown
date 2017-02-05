@@ -97,6 +97,7 @@ categories: wow
 * [CCWatch](#ccwatch)
 * [ChatBox](#!chatbox)
 * [cgCrafty](#cgcrafty)
+* [CharacterProfiler](#characterprofiler)
 * [CharactersViewer](#charactersviewer)
 * [ChatBar](#chatbar)
 * [ChatCast](#chatcast)
@@ -231,6 +232,28 @@ categories: wow
 * [Fubar Compatability 1.2](#fubar-compat-1.2)
 * [FubarPlugin 2.0](#fubarplugin-2.0)
 * [FuTextures](#futextures)
+
+### [G](#g_start)
+* [Gatherer](#gatherer)
+* [Gazmik Fizzwidget AdSpace](#gfw_adspace)
+* [GFW AutoCraft](#gfw_autocraft)
+* [GFW Disenchant Predictor](#gfw_disenchantpredictor)
+* [GFW Enchant Seller](#gfw_enchantseller)
+* [GFW Feed-O-Matic](#gfw_feedomatic)
+* [GFW Hunter's Helper](#gfw_huntershelper)
+* [GFW Linkerator](#gfw_linkerator)
+* [GFW Reagent Cost](#gfw_reagentcost)
+* [GMail](#gmail)
+* [GoodInspect](#goodinspect)
+* [Grimoire Keeper](#grimoirekeeper)
+* [GroupButtons](#groupbuttons)
+* [Group Calendar](#groupcalendar)
+* [GuildAds](#guildads)
+* [Guild Event Manager 2](#guildeventmanager2)
+* [Guild Profiler](#guildprofiler)
+* [Guild Raid Snapshot](#guildraidsnapshot)
+* [Guild Seen](#guildseen)
+* [Guild Tools](#guildtools)
 
 
 ### <a name="autosave"></a>!AutoSave
@@ -1605,6 +1628,19 @@ may also link the required reagents/materials required in order to construct/cra
 [comment]: # (TODO: Picture in use: tradeskill)
 
 [Download](./addons/cgcrafty.rar)
+
+### <a name="characterprofiler"></a> CharacterProfiler
+![CharacterProfiler tooltip](./img/characterprofilertt.png)
+
+![](./img/characterprofiler1.png)
+
+Commands:  
+`/profiler` `/rpgocp` `/cp`
+
+Summary:  
+CharacterProfiler is a World of Warcraft addon that grabs character info including stats, equipment, inventory (bags & bank), trade skills. This is saved in your savedvariables.lua in the myProfile block (as the old CharacterProfiler was). This information can then be uploaded to a website to display your character info.
+
+[Download](./addons/characterprofiler.rar)
 
 ### <a name="charactersviewer"></a> CharactersViewer
 ![CharactersViewer tooltip](./img/charactersviewertt.png)
@@ -3278,6 +3314,363 @@ Summary:
 Provides a back of various background textures for [Fubar](#fubar).
 
 [Download](./addons/futextures.rar)
+
+## <a name="g_start"></a>G
+
+### <a name="gatherer"></a> Gatherer
+![Gatherer tooltip](./img/gatherertt.png)
+
+![](./img/gatherer1.png)
+
+![](./img/gatherer2.png)
+
+
+Commands:  
+`/gatherer`
+
+Summary:  
+Gatherer is an addon for herbalists, miners and treasure hunters in World of Warcraft. It's main purpose is to track the closest plants, deposits and treasure locations on you minimap.
+
+The addon does not track like a tracking ability does, rather it "remembers" where you have found various items in the past. It does this whenever you gather (perform herbalism, mining or opening) on an item, and records the specific map location in it's history. From then on, whenever the item comes into range of being one of the closest 1-25 (configurable) items to your present location, it will pop up on you minimap.
+
+When you view your main map, you will also see the item locations marked on the particular map you are viewing there.
+
+
+[comment]: # (TODO: show gatherer working)
+
+[Download](./addons/gatherer.rar)
+
+### <a name="gems"></a> Gems
+![Gems tooltip](./img/gemstt.png)
+
+![](./img/gems1.png)
+
+![](./img/gems2.png)
+
+
+Commands:  
+`/gems`
+`/gems help`
+
+Summary:  
+A simple connect-four game inside of WoW
+
+[Download](./addons/gems.rar)
+
+### <a name="gfw_adspace"></a> Gazmik Fizzwidget AdSpace
+![Gazmik Fizzwidget AdSpace tooltip](./img/gfw_adspacett.png)
+
+![](./img/gfw_adspace1.png)
+
+Commands:  
+`/adspace` `/ads`
+
+Summary:  
+Many adventurers these days are buying tradeskill recipes on the Auction House at insanely high prices... when they could be getting a much better deal from us! Someone's been buying our wares and marking them up for 100%, 200%, even 400% profit, and you silly adventurers are falling for it.  
+Lucky for you, Gazmik Fizzwidget is here to set you straight. This device provides a friendly reminder whenever you consider buying a recipe, pointing out which vendors it can be bought from. Never pay outrageous prices for your recipes again!
+
+
+[comment]: # (TODO: adspace pictures in AH)
+
+[Download](./addons/gfw_adspace.rar)
+
+### <a name="gfw_autocraft"></a> GFW AutoCraft
+![GFW AutoCraft tooltip](./img/gfw_autocrafttt.png)
+
+![](./img/gfw_autocraft1.png)
+
+Summary:  
+This addon changes the "Create" and "Create All" buttons in the trade skill window to become "Queue" and "Queue All". They work just as before... except you can also them click them again once you're already working on a product, and they'll queue the additional item(s) to be automatically produced as soon as the current item(s) are finished.  
+
+There's also a "Queue Everything" button -- click it to automatically queue up all the items you can currently create. ("Everything" actually means "everything currently in the window"... for example, if you're a tailor, switch to showing only the Trade Goods group and hit "Queue Everything" and it'll convert all your cloth to bolts without trying to also do something else.)  
+
+You can queue several items you have the reagents for even if you're currently unable to produce them (e.g. on a wind rider or gryphon, a smith away from a forge) and then make them all once you're ready, or pause queued work and resume it later if you need to stop for a break. The "Run Queue Automatically" checkbox controls whether we'll try to start working on items as soon as they're queued or wait until you press the "Run Queue" button yourself.  
+
+There's also a "Buy" button; if you speak to a vendor while keeping your tradeskill window open, clicking this will automatically find and buy whatever reagents are needed for the selected item. (It works like the "Queue" button, too, so you can type in a number and buy enough reagents for that many items.) For example, a tailor who wants to make five Mageweave Bags and has three Silken Thread on hand can type "5" in the text box and press "Buy", and we'll automatically buy seven Silken Thread (assuming they have Mageweave Bag selected and are talking to a vendor who sells Silken Thread).
+
+[Download](./addons/gfw_autocraft.rar)
+
+
+### <a name="gfw_disenchantpredictor"></a> GFW Disenchant Predictor
+![GFW Disenchant Predictor tooltip](./img/gfw_disenchantpredictortt.png)
+
+![](./img/gfw_disenchantpredictor1.png)
+
+Commands:  
+`/enchant` `/ench` `/disenchant` `/dis` `/de` `/dp`
+
+Summary:  
+Enchanters: have you ever tried to accumulate reagents for your latest formula and come away feeling... well, disenchanted? Got Strange Dust when you really wanted Soul? Is that Brilliant Shard just not large enough to satisfy? Suffer no more! Through countless hours of research, I've discovered the scientific laws governing the mystic composition of enchanted items. I just *had* to build a gadget to make use of this knowledge.  
+
+My latest invention will help you make sure you always disenchant the right stuff to get the shards, dusts, or essences you need.  Simply point it at any such reagent -- or even the reagent requirements listed in your formula book -- and you'll see an instant readout showing what types of items it can be disenchanted from. No more guesswork!*  
+
+*Due to fluctuations in the astral plane, disenchanting an item of merely "uncommon" quality will still produce variable results. No one can predict for certain whether you'll get a pile of dust, an essence, or a shard, but thanks to my invention you'll at least know what variety of dust, kind and potency of essence, or luster and size of shard can be produced. 
+
+[Download](./addons/gfw_disenchantpredictor.rar)
+
+### <a name="gfw_enchantseller"></a> GFW Enchant Seller
+![GFW Enchant Seller tooltip](./img/gfw_enchantsellertt.png)
+
+![](./img/gfw_enchantseller1.png)
+
+Commands:  
+`/enchantseller` `/es`
+
+Summary:  
+Enchant Seller saves a description of whatever money and/or items are offered in return when you enchant someone's equipment via the trade window (or vice versa). This data is then summarized in your own Enchanting window: below the name (and rod requirement) of an enchantment, you'll see the average and median prices from your enchanting history, as well as a count of how many times you've traded that enchantment. (You can also query your enchant-trade history via chat commands; see above.)
+
+[comment]: # (TODO: sell enchant)
+
+[Download](./addons/gfw_enchantseller.rar)
+
+### <a name="gfw_feedomatic"></a> GFW Feed-O-Matic
+![GFW Feed-O-Matic tooltip](./img/gfw_feedomatictt.png)
+
+![](./img/gfw_feedomatic1.png)
+
+Commands:  
+`/feedomatic` `/feed` `/fod`
+
+Summary:  
+Makes feeding your pet quick, easy, and fun.  
+
+Bind a key to "Feed Pet", and Feed-O-Matic will automatically choose an appropriate food and give it to the pet whenever you press it. 
+
+Can use an emote to notify you when it's feeding your pet, with custom randomized messages. See FeedOMatic_Emotes.lua to customize them to your characters!
+
+[Download](./addons/gfw_feedomatic.rar)
+
+### <a name="gfw_huntershelper"></a> GFW Hunter's Helper
+![GFW Hunter's Helper tooltip](./img/gfw_huntershelpertt.png)
+
+![](./img/gfw_huntershelper1.png)
+
+![](./img/gfw_huntershelper2.png)
+
+
+Commands:  
+`/huntershelper` `/hh`
+
+Summary:  
+When you mouse over a beast in the world, the tooltip will show which abilities a Hunter could learn after taming it. (Or no additional info if the beast doesn't have any known abilities.)  
+
+If you're currently playing a hunter, the abilities will be colored according to whether you've already learned them: green for abilities you have yet to learn, and gray for those you already know. Hunter's Helper will notice when you learn new abilities and will automatically refresh its index whenever you open the Beast Training window. (If you already know a few abilities, you should open you Beast Training window the first time you play after installing Hunter's Helper.)  
+
+Need to know where to find new abilities for your pet? Type (for example) '/huntershelper find Bite 6' to get a list of beasts known to have that ability. Results are sorted by zone, with those areas closest to (or most accessible from) your current location first. (The list cuts off after four zones if you look for an ability found on a wide variety of beast types; typing `findall` instead of `find` will list everything applicable.)  
+
+Hunter's Helper also notifies you in chat if you tame a beast whose skillset isn't what was expected. Please contact me so I can update Hunter's Helper with corrected information! 
+
+[Download](./addons/gfw_huntershelper.rar)
+
+### <a name="gfw_linkerator"></a> GFW Linkerator
+![GFW Linkerator tooltip](./img/gfw_linkeratortt.png)
+
+![](./img/gfw_linkerator1.png)
+
+Commands:  
+`/linkerator` `/link`
+
+Summary:   
+Automatically remembers item links you come across (some of which you might not even see!)... in chat channels, in your inventory and bank, on other players, in loot messages, etc. (Unlike some addons which do this, Linkerator only keeps the name and item ID, so its database stays small.)  
+
+Allows you to insert an item link in chat by merely typing its name in brackets. (i.e., type `/g [swift razzashi raptor]` to send a message to your guild with a clickable link for the mount they likely won't see often.)   
+
+Since there are some cases of different items which have the same name, you can type the name followed by something distinctive about the item in parentheses (e.g. `[punctured voodoo doll (druid)]` or `[warblade of the hakkari (main)]`) if you're looking for a specific match -- you can use any item attribute that shows up in that item's tooltip. (This only works if the variant you're looking for is in your WoW client's cache, however.) Alternately, if you know the item ID of a specific item, you can type it in brackets (preceded by a poind sign) to link it (e.g. `[#18473]` to get the Hunter variant of [Royal Seal of Eldre'thalas]).
+
+[Download](./addons/gfw_linkerator.rar)
+
+### <a name="gfw_reagentcost"></a> GFW Reagent Cost
+![GFW Reagent Cost tooltip](./img/gfw_reagentcosttt.png)
+
+Commands:  
+`/reagentcost` `/rc`
+
+Summary:  
+Depens on: Some sort of auction scanner, like Auctioneer, KC_Items, or AuctionMatrix  
+
+Your tradeskill windows will now display an estimated total cost of materials above the listing of required reagents for each recipe. The current market value of each reagent is calculated based on your auction scan data -- so, as is often the case with auction scanners, the more often you scan the AH, the more reliable your data will be. (A "confidence" percentage score is included in gray next to totals so you can get an idea of how reliable the auction data for a particular set of reagents is.) Auction price is only used for reagents not commonly sold by vendors; since it'd be silly to go looking for (for example) thread, vials, or flux at auction instead of buying from a vendor, the vendor price is used when totaling the cost of such reagents.  
+
+By typing `/reagentcost report`, you can get a list of all the items your tradeskills can produce ranked by estimated profitability, so you can see which items are worth making and selling on the AH and which (if you're not needing to make them for skill-ups) you might be better off selling the reagents for. By default, this list only includes items for which you have at least a minimal amount of auction data, and only items that can be auctioned for at least a break-even price.
+
+[comment]: # (TODO: tradeskill picture after AH scan)
+
+[Download](./addons/gfw_reagentcost.rar)
+
+### <a name="gmail"></a> GMail
+![GMail tooltip](./img/gmailtt.png)
+
+Summary:  
+Ace2 version of [CT MailMod](#ct_mailmod). Enhances postbox, with features such as sending multiple items at the same time.
+
+[Download](./addons/gmail.rar)
+
+### <a name="goodinspect"></a> GoodInspect
+![GoodInspect tooltip](./img/goodinspecttt.png)
+
+![](./img/goodinspect1.png)
+
+Summary:  
+Status: <span style="color: F00">Broken</span>
+
+Should increase the inspect range. Though it does it so, the inspect window is just a frame and shows no information, and needs to be refreshed. Refresh only works if you within the standard inspect range.
+
+[Download](./addons/goodinspect.rar)
+
+### <a name="grimoirekeeper"></a> Grimoire Keeper
+![Grimoire Keeper tooltip](./img/grimoirekeepertt.png)
+
+![](./img/grimoirekeeper1.png)
+
+
+Summary:  
+Tired of going to the demon trainer and struggling to remember which grimoires you had the money to purchase last level?  Tired of blowing soul shards only to see "Already Known" on every book?  Then Grimoire Keeper is for you!  
+
+When you summon a demon, Grimoire Keeper's tiny little gnomes will interrogate it using top-secret techniques to learn its level of mastery for all spells.  They'll then write down that information for that character, storing it securely in your per-character SavedVariables file.  Any time your demon learns a new spell, our gnomes will re-interrogate it for added thoroughness.
+When you visit the demon trainer, the gnomes will spring into action, bustling up to the interface panel with BLUE CRAYONS to color all the books that your demons know blue.  Books you can't learn yet will remain red, which leaves you, the fortunate warlock, to select which of the white books you'd like to buy.  
+
+Don't worry, the crayon washes off before the next person tries to buy anything.  No property is permanently damaged.
+
+[comment]: # (TODO: warlock grimoire keeper already known)
+
+[Download](./addons/grimoirekeeper.rar)
+
+### <a name="groupbuttons"></a> GroupButtons
+![GroupButtons tooltip](./img/groupbuttonstt.png)
+
+![](./img/groupbuttons1.png)
+
+![](./img/groupbuttons2.png)
+
+Commands:  
+`/groupbuttons` `/gb`
+
+Summary:  
+Creates new hotkey bars, that can be attached to specific targers (targeted enemy, party member 1, raid 2, etc). This allows to just click a skill on the associated hotkey bar, and cast a spell on that unit, without targeting.
+
+There is a lot more information in the accompanying readme.html file
+
+[Download](./addons/groupbuttons.rar)
+
+### <a name="groupcalendar"></a> Group Calendar
+![Group Calendar tooltip](./img/groupcalendartt.png)
+
+![](./img/groupcalendar1.png)
+
+![](./img/groupcalendar2.png)
+
+![](./img/groupcalendar3.png)
+
+
+Commands:  
+`/calendar`
+
+Summary:  
+Implents a shared calendar, that allows to sync up event date between different player ex. guild members
+
+[Download](./addons/groupcalendar.rar)
+
+### <a name="guildads"></a> GuildAds
+![GuildAds tooltip](./img/guildadstt.png)
+
+![](./img/guildads1.png)
+
+![](./img/guildads2.png)
+
+Commands:  
+`/guildads`
+
+Summary:  
+GuildAds allows multiple independant players to create a channel for chatting, exchange object and event organisation.
+
+[Download](./addons/guildads.rar)
+
+### <a name="guildeventmanager2"></a> Guild Event Manager 2
+![Guild Event Manager 2 tooltip](./img/guildeventmanager2tt.png)
+
+![](./img/guildeventmanager21.png)
+
+![](./img/guildeventmanager22.png)
+
+![](./img/guildeventmanager23.png)
+
+![](./img/guildeventmanager24.png)
+
+
+Commands:  
+`/gem`
+
+Summary:  
+An addon that helps you create and manage different events between guild members.
+
+[Download](./addons/guildeventmanager2.rar)
+
+### <a name="guildprofiler"></a> Guild Profiler
+![Guild Profiler tooltip](./img/guildprofilertt.png)
+
+![](./img/guildprofiler1.png)
+
+Summary:  
+Depends on: [Character Profiler](#characterprofiler)
+GuildProfiler is a World of Warcraft addon that grabs guild info shown on the in-game Guild Roster. This is saved in your savedvariables.lua in the myProfile block (from CharacterProfiler). This information can then be uploaded to a website to display your Guild Roster.
+
+[Download](./addons/guildprofiler.rar)
+
+### <a name="guildraidsnapshot"></a> Guild Raid Snapshot
+![Guild Raid Snapshot tooltip](./img/guildraidsnapshottt.png)
+
+![](./img/guildraidsnapshot1.png)
+
+Summary:  
+Status <span style="color: F00">Broken</span>  
+Keeps spamming GRSStimer:onUpdate error  
+
+This mod is only officially supported for DKP systems hosted on DKPSystem.com
+and not supported for use with other DKP Systems (eqDKP, nDKP, etc). You are free to make copies of this as you please, and make changes to it as necessary to support your own DKP system (eqDKP, nDKP). 
+
+[Download](./addons/guildraidsnapshot.rar)
+
+### <a name="guildseen"></a> Guild Seen
+![Guild Seen tooltip](./img/guildseentt.png)
+
+Commands:  
+`/seen [guild mate name]`
+
+Summary:  
+Adds a slash command for checking when a guild mate was last seen online.
+
+[Download](./addons/guildseen.rar)
+
+### <a name="guildtools"></a> Guild Tools
+![Guild Tools tooltip](./img/guildtoolstt.png)
+
+![](./img/guildtools1.png)
+
+![](./img/guildtools2.png)
+
+Commands:  
+`/gt`  
+
+Summary:  
+GuildTools(GT) is an addon that provides you with the fast and easy way to manage guild bank. It consists of 2 functional parts: BankScanner(BS) and IncomingMail(IM). BS will perform scan of the possessions of the character, including bank and personal bags, and will generate html page to display this information. IM is tracking incoming mail, what was received, when and from whom, and is capable of generating html page to display this info.
+
+There is much more documentation in the accompanyin readme file
+
+[Download](./addons/guildtools.rar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
