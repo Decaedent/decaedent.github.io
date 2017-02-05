@@ -255,6 +255,12 @@ categories: wow
 * [Guild Seen](#guildseen)
 * [Guild Tools](#guildtools)
 
+### [H](#h_start)
+* [HealersAssist](#healersassist)
+* [HealthFade](#healthfade)
+* [HotCandy](#hotcandy)
+* [HunterPetSkills](#hunterpetskills)
+
 
 ### <a name="autosave"></a>!AutoSave
 ![!AutoSave tooltip](./img/autosavett.png)
@@ -3658,12 +3664,58 @@ There is much more documentation in the accompanyin readme file
 [Download](./addons/guildtools.rar)
 
 
+## <a name="h_start"></a>H
 
+### <a name="healersassist"></a> HealersAssist
+![HealersAssist tooltip](./img/healersassisttt.png)
 
+![](./img/healersassist1.png)
 
+![](./img/healersassist2.png)
 
+Commands:  
+`/ha`
 
+Summary:  
+Lets you sync with other healers to see information such as current mana, cooldowns, currently casting spell. Also provides emergency view, to show targerts that need to be healed
 
+[Download](./addons/healersassist.rar)
+
+### <a name="healthfade"></a> HealthFade
+![HealthFade tooltip](./img/healthfadett.png)
+
+Summary:  
+A simple way to enable the smooth health fading features of Blizzards Health Bar interface item.
+
+[Download](./addons/healthfade.rar)
+
+### <a name="hotcandy"></a> HotCandy
+![HotCandy tooltip](./img/hotcandytt.png)
+
+![](./img/hotcandy1.png)
+
+Commands:  
+`/hotcandy` `/hot`
+
+Summary:  
+Provides a visual display of currently active heal-over-time spells
+
+[Download](./addons/hotcandy.rar)
+
+### <a name="hunterpetskills"></a> HunterPetSkills
+![HunterPetSkills tooltip](./img/hunterpetskillstt.png)
+
+![](./img/hunterpetskills1.png)
+
+![](./img/hunterpetskills2.png)
+
+Commands:  
+`/hunterpetskills` `/petskills` `/sk`
+
+Summary:  
+An in-game database that allows you to search hunter pets based on their skills.
+
+[Download](./addons/hunterpetskills.rar)
 
 
 
