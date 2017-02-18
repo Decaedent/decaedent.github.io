@@ -44,6 +44,7 @@ categories: wow
 * [AutoProfit](#autoprofit)
 * [AutoRepair](#autorepair)
 * [AutoShoutOut](#autoshoutout)
+* [Aux](#aux)
 * [Available Only](#availableonly)
 
 ### [B](#b_start)
@@ -865,6 +866,15 @@ Does automated notifications, based on user-defined settings.  Can be used by an
 
 
 [Download](./addons/autoshoutout.rar)
+
+### <a name="aux"></a> Aux
+![Aux tooltip](./img/aux1.png)
+
+Summary:
+A modern and actively developed addon that provides a more advanced auction house interface. Features include autocomplete, saving searches, custom filters, and historical value.
+
+[GitHub](https://github.com/shirsig/aux-addon)
+[Download](https://github.com/shirsig/aux-addon/archive/master.zip) (rename to aux-addon)
 
 ### <a name="availableonly"></a> Available Only
 ![Available Only tooltip](./img/availableonlytt.png)
