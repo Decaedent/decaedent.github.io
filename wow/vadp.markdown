@@ -167,6 +167,7 @@ categories: wow
 * [Distance](#distance)
 * [DHud](#dhud)
 * [DHud Options](#dhud_options)
+* [DPSMate](#dpsmate)
 * [DruidBar](#druidbar)
 * [Duel Inspect](#duelinspect)
 * [DynamicData](#dynamicdata)
@@ -2566,6 +2567,17 @@ There is more information in the accompanying readme file
 [comment]: # (TODO: add druid image / video)
 
 [Download](./addons/druidbar.rar)
+
+### <a name="dpsmate"></a> DPSMate
+![Duel Inspect tooltip](./img/dpsmate1.png)
+
+![](./img/dpsmate2.jpg)
+
+Summary:
+A modern and actively developed addon that provides raid statistics as well as in-depth analysis of combat. On top of its detailed graphs, it also allows you to upload to [Legacy Logs](http://legacy-logs.com/) for even better analysis.
+
+[GitHub](https://github.com/Geigerkind/DPSMate)
+[Download](https://github.com/Geigerkind/DPSMate/archive/master.zip) (rename to DPSMate)
 
 ### <a name="duelinspect"></a> Duel Inspect
 ![Duel Inspect tooltip](./img/duelinspecttt.png)
