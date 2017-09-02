@@ -44,6 +44,7 @@ categories: wow
 * [AutoProfit](#autoprofit)
 * [AutoRepair](#autorepair)
 * [AutoShoutOut](#autoshoutout)
+* [Aux](#aux)
 * [Available Only](#availableonly)
 
 ### [B](#b_start)
@@ -166,6 +167,7 @@ categories: wow
 * [Distance](#distance)
 * [DHud](#dhud)
 * [DHud Options](#dhud_options)
+* [DPSMate](#dpsmate)
 * [DruidBar](#druidbar)
 * [Duel Inspect](#duelinspect)
 * [DynamicData](#dynamicdata)
@@ -865,6 +867,15 @@ Does automated notifications, based on user-defined settings.  Can be used by an
 
 
 [Download](./addons/autoshoutout.rar)
+
+### <a name="aux"></a> Aux
+![Aux tooltip](./img/aux1.png)
+
+Summary:
+A modern and actively developed addon that provides a more advanced auction house interface. Features include autocomplete, saving searches, custom filters, and historical value.
+
+[GitHub](https://github.com/shirsig/aux-addon)
+[Download](https://github.com/shirsig/aux-addon/archive/master.zip) (rename to aux-addon)
 
 ### <a name="availableonly"></a> Available Only
 ![Available Only tooltip](./img/availableonlytt.png)
@@ -2556,6 +2567,17 @@ There is more information in the accompanying readme file
 [comment]: # (TODO: add druid image / video)
 
 [Download](./addons/druidbar.rar)
+
+### <a name="dpsmate"></a> DPSMate
+![Duel Inspect tooltip](./img/dpsmate1.png)
+
+![](./img/dpsmate2.jpg)
+
+Summary:
+A modern and actively developed addon that provides raid statistics as well as in-depth analysis of combat. On top of its detailed graphs, it also allows you to upload to [Legacy Logs](http://legacy-logs.com/) for even better analysis.
+
+[GitHub](https://github.com/Geigerkind/DPSMate)
+[Download](https://github.com/Geigerkind/DPSMate/archive/master.zip) (rename to DPSMate)
 
 ### <a name="duelinspect"></a> Duel Inspect
 ![Duel Inspect tooltip](./img/duelinspecttt.png)
